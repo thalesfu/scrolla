@@ -1,0 +1,85 @@
+baseURL: "https://thalesfu.com/"
+locale: "zh-cn"
+title: "ThalesFu"
+theme: PaperMod
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: ThalesFu
+  description: "ThalesFu 的个人博客"
+  keywords: [Blog, Portfolio]
+  author: ThalesFu
+  DateFormat: "2006-01-02"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+
+  homeInfoParams:
+    Title: "Hi, I'm ThalesFu"
+    Content: "欢迎来到我的博客，这里记录技术、思考和生活。"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/thalesfu"
+
+  editPost:
+    URL: "https://github.com/thalesfu/scrolla/edit/main/content"
+    Text: "Edit"
+    appendFilePath: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
