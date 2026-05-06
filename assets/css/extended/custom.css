@@ -59,26 +59,25 @@ body {
   position: relative;
 }
 
-/* Aging vignette — corners darkest, edges darker, center clear */
+/* Aging vignette — uniform warm base + edge/corner darkening */
 body::before {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 9000;
-  background:
-    /* Top-left corner */
-    radial-gradient(ellipse 68% 48% at 0% 0%,   rgba(95,52,4,0.40) 0%, transparent 65%),
-    /* Top-right corner */
-    radial-gradient(ellipse 68% 48% at 100% 0%,  rgba(95,52,4,0.40) 0%, transparent 65%),
-    /* Bottom-left corner */
-    radial-gradient(ellipse 55% 42% at 0% 100%,  rgba(95,52,4,0.26) 0%, transparent 62%),
-    /* Bottom-right corner */
-    radial-gradient(ellipse 55% 42% at 100% 100%,rgba(95,52,4,0.26) 0%, transparent 62%),
-    /* Left/right edge darkening */
-    linear-gradient(to right,  rgba(95,52,4,0.13) 0%, transparent 11%, transparent 89%, rgba(95,52,4,0.13) 100%),
-    /* Top/bottom edge darkening */
-    linear-gradient(to bottom, rgba(95,52,4,0.10) 0%, transparent 9%,  transparent 88%, rgba(95,52,4,0.10) 100%);
+  /* Uniform warm amber tint covers the whole page so no area looks stark-white */
+  background-color: rgba(155, 100, 18, 0.07);
+  background-image:
+    /* Top corners */
+    radial-gradient(ellipse 70% 50% at 0% 0%,    rgba(95,52,4,0.28) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 50% at 100% 0%,   rgba(95,52,4,0.28) 0%, transparent 65%),
+    /* Bottom corners */
+    radial-gradient(ellipse 55% 42% at 0% 100%,   rgba(95,52,4,0.18) 0%, transparent 62%),
+    radial-gradient(ellipse 55% 42% at 100% 100%,  rgba(95,52,4,0.18) 0%, transparent 62%),
+    /* Edge lines */
+    linear-gradient(to right,  rgba(95,52,4,0.09) 0%, transparent 12%, transparent 88%, rgba(95,52,4,0.09) 100%),
+    linear-gradient(to bottom, rgba(95,52,4,0.07) 0%, transparent 10%, transparent 87%, rgba(95,52,4,0.07) 100%);
 }
 
 /* Dark mode: no parchment texture */
