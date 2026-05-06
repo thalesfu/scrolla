@@ -2,17 +2,4 @@
 <div class="banner-hero">
   <img src="/images/banner.jpg" alt="简帛与羊皮纸——一幅画，一本书，一段人生">
 </div>
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1 class="site-title-main">{{ .Title | markdownify }}</h1>
-        <p class="site-subtitle">一幅画，一本书，一段人生</p>
-    </header>
-    <div class="entry-content md-content">
-        {{ $opts := dict "display" "block" }}
-        {{ .Content | $.Page.RenderString $opts }}
-    </div>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-    </footer>
-</article>
 {{- end -}}

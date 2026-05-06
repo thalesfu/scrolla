@@ -1,138 +1,230 @@
-/* ── Renaissance color palette ── */
+/* ══════════════════════════════════════════
+   Baroque Color Palette
+   ══════════════════════════════════════════ */
 :root {
-  --theme: #f7f0e3;
-  --entry: #ede0c4;
-  --primary: #2a1508;
-  --secondary: #7a5520;
-  --tertiary: rgba(180, 120, 20, 0.12);
-  --content: #2a1508;
-  --code-block-bg: #1a0d05;
-  --code-bg: rgba(180, 120, 20, 0.12);
-  --border: #c8960c;
-  --gold: #c8960c;
-  --deep-red: #8b1a1a;
+  --theme: #f2e8d5;
+  --entry: #e8d9be;
+  --primary: #1e0e06;
+  --secondary: #6b4020;
+  --tertiary: rgba(160, 110, 20, 0.1);
+  --content: #1e0e06;
+  --code-block-bg: #180c04;
+  --code-bg: rgba(160, 110, 20, 0.12);
+  --border: #a07820;
+  --gold: #b8860b;
+  --gold-light: #d4a843;
+  --burgundy: #6b1a1a;
+  --shadow-warm: rgba(100, 60, 10, 0.35);
 }
 
 .dark {
-  --theme: #1a0d05;
-  --entry: #2a1508;
-  --primary: #f5ead9;
+  --theme: #0d0805;
+  --entry: #1a1005;
+  --primary: #f0e6d0;
   --secondary: #c8960c;
-  --tertiary: rgba(200, 150, 12, 0.12);
-  --content: #e8d5b5;
-  --code-block-bg: #0d0600;
-  --code-bg: rgba(200, 150, 12, 0.12);
-  --border: #7a5520;
-  --gold: #c8960c;
-  --deep-red: #c04040;
+  --tertiary: rgba(200, 150, 12, 0.1);
+  --content: #e8d5b0;
+  --code-block-bg: #080400;
+  --code-bg: rgba(200, 150, 12, 0.1);
+  --border: #7a5818;
+  --gold: #d4a843;
+  --gold-light: #e8c060;
+  --burgundy: #c04040;
+  --shadow-warm: rgba(200, 150, 20, 0.15);
 }
 
-/* ── Typography ── */
+/* ══════════════════════════════════════════
+   Typography — Cormorant Garamond (Baroque)
+   ══════════════════════════════════════════ */
 body {
-  font-family: "Noto Serif SC", "EB Garamond", "SimSun", Georgia, serif;
+  font-family: "Noto Serif SC", "Cormorant Garamond", Georgia, serif;
+  background-color: var(--theme);
 }
 
-.post-title,
-.entry-header h2,
-h1, h2, h3 {
-  font-family: "Noto Serif SC", "EB Garamond", serif;
+h1, h2, h3, h4 {
+  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.header .logo,
+#menu a,
+.nav a {
+  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
 }
 
-/* ── Banner ── */
+/* ══════════════════════════════════════════
+   Full-bleed Banner
+   ══════════════════════════════════════════ */
+body { overflow-x: hidden; }
+
 .banner-hero {
-  width: 100%;
-  max-height: 420px;
-  overflow: hidden;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   margin-bottom: 0;
   display: block;
+  line-height: 0;
 }
 
 .banner-hero img {
   width: 100%;
-  height: 420px;
-  object-fit: cover;
-  object-position: center 20%;
+  height: auto;
   display: block;
 }
 
-/* ── Home info below banner ── */
-.home-info {
-  border-top: 3px solid var(--gold);
-  border-bottom: 3px solid var(--gold);
-  border-left: none;
-  border-right: none;
-  padding: 2rem 0;
-  margin-bottom: 2rem;
-  text-align: center;
-  background: transparent;
-  box-shadow: none;
-}
-
-.site-title-main {
-  font-size: 2rem;
-  color: var(--primary);
-  letter-spacing: 0.08em;
-  margin-bottom: 0.3rem;
-}
-
-.site-subtitle {
-  font-size: 1rem;
-  color: var(--secondary);
-  font-style: italic;
-  letter-spacing: 0.06em;
-  margin: 0;
-}
-
-/* ── Header / Nav ── */
+/* ══════════════════════════════════════════
+   Baroque Header / Nav
+   ══════════════════════════════════════════ */
 .header {
-  border-bottom: 2px solid var(--gold);
   background: var(--theme);
+  border-bottom: 3px double var(--gold);
+  box-shadow: 0 2px 8px var(--shadow-warm);
 }
 
-#menu a {
-  font-family: "Noto Serif SC", serif;
-  letter-spacing: 0.04em;
+/* ══════════════════════════════════════════
+   Baroque Ornamental Separator
+   ══════════════════════════════════════════ */
+.banner-hero + * {
+  margin-top: 2.5rem;
 }
 
-/* ── Post cards ── */
+/* ornamental divider between banner and posts */
+.banner-hero::after {
+  content: "❦ ✦ ❦";
+  display: block;
+  text-align: center;
+  color: var(--gold);
+  font-size: 1.4rem;
+  letter-spacing: 0.5em;
+  padding: 1rem 0 0.5rem;
+  line-height: 1;
+}
+
+/* ══════════════════════════════════════════
+   Baroque Post Cards
+   ══════════════════════════════════════════ */
 .post-entry {
-  border: 1px solid var(--border);
-  border-radius: 2px;
+  border: 1px solid var(--gold);
+  border-radius: 0;
+  background: var(--entry);
+  position: relative;
+  box-shadow: 3px 3px 16px var(--shadow-warm);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .post-entry:hover {
-  box-shadow: 0 2px 12px rgba(180, 120, 20, 0.2);
+  box-shadow: 5px 5px 24px var(--shadow-warm);
+  transform: translateY(-2px);
 }
 
-/* ── Links ── */
+/* gold corner ornaments */
+.post-entry::before,
+.post-entry::after {
+  position: absolute;
+  color: var(--gold);
+  font-size: 1.1rem;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+.post-entry::before {
+  content: "✦";
+  top: 6px;
+  left: 10px;
+}
+
+.post-entry::after {
+  content: "✦";
+  top: 6px;
+  right: 10px;
+}
+
+.entry-header h2 {
+  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* ══════════════════════════════════════════
+   Links
+   ══════════════════════════════════════════ */
 a {
-  color: var(--deep-red);
+  color: var(--burgundy);
 }
 
 a:hover {
   color: var(--gold);
 }
 
-/* ── Code ── */
+/* ══════════════════════════════════════════
+   Baroque HR Divider
+   ══════════════════════════════════════════ */
+hr {
+  border: none;
+  border-top: 1px solid var(--gold);
+  opacity: 0.5;
+  position: relative;
+  overflow: visible;
+  margin: 2rem auto;
+}
+
+hr::after {
+  content: "✦";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--theme);
+  color: var(--gold);
+  padding: 0 0.6em;
+  font-size: 0.85rem;
+}
+
+/* ══════════════════════════════════════════
+   Code
+   ══════════════════════════════════════════ */
 .post-content code {
   font-family: "Courier New", monospace;
   background: var(--code-bg);
   border: 1px solid var(--border);
-  border-radius: 2px;
+  border-radius: 0;
 }
 
-/* ── HR divider ── */
-hr {
-  border-color: var(--gold);
-  opacity: 0.4;
-}
-
-/* ── Footer ── */
+/* ══════════════════════════════════════════
+   Footer
+   ══════════════════════════════════════════ */
 .footer {
-  border-top: 1px solid var(--gold);
-  font-family: "Noto Serif SC", serif;
-  font-size: 0.8rem;
+  border-top: 3px double var(--gold);
+  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-size: 0.85rem;
   color: var(--secondary);
+  padding-top: 1.2rem;
+}
+
+/* ══════════════════════════════════════════
+   Post content typography
+   ══════════════════════════════════════════ */
+.post-content p {
+  line-height: 1.9;
+  font-size: 1.05rem;
+}
+
+/* decorative drop cap on first paragraph */
+.post-content > p:first-of-type::first-letter {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.8em;
+  font-weight: 700;
+  float: left;
+  line-height: 0.75;
+  margin: 0.08em 0.08em 0 0;
+  color: var(--gold);
+}
+
+/* post title page */
+.post-title {
+  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.04em;
 }
