@@ -9,6 +9,12 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+mainSections: ["posts"]
+
+taxonomies:
+  tag: tags
+  category: categories
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -17,7 +23,7 @@ params:
   env: production
   title: "简帛与羊皮纸"
   description: "一幅画，一本书，一段人生"
-  keywords: [Blog, Portfolio]
+  keywords: [Blog, 读书, 技术, 随笔]
   author: ThalesFu
   DateFormat: "2006-01-02"
   defaultTheme: auto
@@ -31,7 +37,7 @@ params:
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -45,11 +51,27 @@ params:
 
   homeInfoParams:
     Title: "简帛与羊皮纸"
-    Content: "一幅画，一本书，一段人生"
+
+  hero:
+    description: "这是一隅安静的书写之地。<br>在这里，记录学习过程，分享知识与感悟，<br>留下技术探索与实践的足迹。愿每一次阅读，<br>都能带来新的启发。"
+    ctaText: "最新文章"
+    ctaLink: "/posts/"
+
+  quote:
+    text: "知识是灵魂的眼睛。"
+    author: "西塞罗"
+
+  aboutSection:
+    description: "热爱阅读、写作与思考的探索者。<br>相信文字与记录的力量，<br>也相信技术能让思法照进现实。"
+    linkText: "了解更多"
 
   socialIcons:
+    - name: email
+      url: "mailto:thalesfu@gmail.com"
     - name: github
       url: "https://github.com/thalesfu"
+    - name: rss
+      url: "/index.xml"
 
   editPost:
     URL: "https://github.com/thalesfu/scrolla/edit/main/content"

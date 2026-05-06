@@ -1,0 +1,64 @@
+<header class="baroque-header">
+  <div class="baroque-header-inner">
+
+    <nav class="baroque-nav baroque-nav-left">
+      {{- $currentPage := . }}
+      {{- range site.Menus.main }}
+      {{- if le .Weight 20 }}
+      {{- $url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL)) | absLangURL }}
+      <a href="{{ .URL | absLangURL }}"
+        {{- if eq $url ($currentPage.Permalink | absLangURL) }} class="active"{{- end }}>
+        {{- .Name }}
+      </a>
+      {{- end }}
+      {{- end }}
+    </nav>
+
+    <div class="baroque-header-brand">
+      <div class="brand-title-row">
+        <span class="brand-orn">❬</span>
+        <a href="{{ "" | absLangURL }}" class="brand-name">{{ site.Title }}</a>
+        <span class="brand-orn">❭</span>
+      </div>
+      <p class="brand-tagline">{{ site.Params.description }}</p>
+    </div>
+
+    <nav class="baroque-nav baroque-nav-right">
+      {{- range site.Menus.main }}
+      {{- if gt .Weight 20 }}
+      {{- $url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL)) | absLangURL }}
+      <a href="{{ .URL | absLangURL }}"
+        {{- if eq $url ($currentPage.Permalink | absLangURL) }} class="active"{{- end }}>
+        {{- .Name }}
+      </a>
+      {{- end }}
+      {{- end }}
+      {{- if not site.Params.disableThemeToggle }}
+      <button id="theme-toggle" class="baroque-theme-btn" accesskey="t" title="切换主题" aria-label="Toggle theme">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+      {{- end }}
+    </nav>
+
+  </div>
+  <div class="baroque-header-rule">
+    <span class="rule-line"></span>
+    <span class="rule-gem">✦</span>
+    <span class="rule-line"></span>
+  </div>
+</header>

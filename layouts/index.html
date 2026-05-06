@@ -1,0 +1,126 @@
+{{- define "main" }}
+{{- $posts := first 3 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+
+<div class="baroque-home">
+
+  {{/* ══════════ Hero Section ══════════ */}}
+  <section class="baroque-hero">
+
+    <div class="hero-painting-col">
+      <div class="painting-frame-outer">
+        <div class="painting-arch-clip">
+          <img src="/images/banner.jpg" alt="{{ site.Title }}" loading="eager">
+        </div>
+        <div class="frame-corner frame-corner-tl"></div>
+        <div class="frame-corner frame-corner-tr"></div>
+        <div class="frame-corner frame-corner-bl"></div>
+        <div class="frame-corner frame-corner-br"></div>
+      </div>
+    </div>
+
+    <div class="hero-text-col">
+      <p class="hero-welcome">Welcome</p>
+      <h1 class="hero-site-title">{{ site.Title }}</h1>
+      <div class="hero-divider">
+        <span class="divider-line"></span>
+        <span class="divider-gem">❧</span>
+        <span class="divider-line"></span>
+      </div>
+      <div class="hero-description">
+        {{- site.Params.hero.description | safeHTML }}
+      </div>
+      <a href="{{ site.Params.hero.ctaLink | default "/posts/" }}" class="hero-cta">
+        {{ site.Params.hero.ctaText | default "最新文章" }}
+        <span class="cta-arrow"> ─────→</span>
+      </a>
+    </div>
+
+  </section>
+
+  {{/* ══════════ Recent Posts ══════════ */}}
+  <section class="baroque-posts-section">
+
+    <div class="section-title-row">
+      <span class="stitle-rule"></span>
+      <span class="stitle-gem">❧</span>
+      <h2 class="stitle-text">最新文章</h2>
+      <span class="stitle-gem">❧</span>
+      <span class="stitle-rule"></span>
+    </div>
+
+    <div class="baroque-grid">
+      {{- range $posts }}
+      <article class="bpost-card">
+        <div class="bpost-cover">
+          {{- with .Params.cover.image }}
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          {{- else }}
+          <div class="bpost-cover-gradient"></div>
+          {{- end }}
+        </div>
+        <div class="bpost-body">
+          {{- with index (.GetTerms "categories") 0 }}
+          <span class="bpost-cat">{{ .LinkTitle }}</span>
+          {{- else }}
+          {{- with index (.GetTerms "tags") 0 }}
+          <span class="bpost-cat">{{ .LinkTitle }}</span>
+          {{- end }}
+          {{- end }}
+          <h3 class="bpost-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h3>
+          <p class="bpost-summary">{{ .Summary | plainify | htmlUnescape | truncate 80 }}</p>
+          <div class="bpost-meta">
+            <span>{{ .Date.Format "2006-01-02" }}</span>
+            <span>{{ .ReadingTime }} min</span>
+            <span>{{ .Params.author | default site.Params.author }}</span>
+            <a href="{{ .Permalink }}" class="bpost-arrow" aria-label="阅读全文">→</a>
+          </div>
+        </div>
+      </article>
+      {{- end }}
+    </div>
+
+    <div class="browse-all-row">
+      <a href="/posts/" class="browse-all-btn">← 浏览所有文章 →</a>
+    </div>
+
+  </section>
+
+  {{/* ══════════ Quote + About ══════════ */}}
+  <section class="baroque-bottom">
+
+    {{- with site.Params.quote }}
+    <div class="baroque-card quote-card">
+      <div class="card-corner card-corner-tl">❬</div>
+      <div class="card-corner card-corner-tr">❭</div>
+      <div class="card-corner card-corner-bl">❬</div>
+      <div class="card-corner card-corner-br">❭</div>
+      <blockquote class="quote-body">
+        <p class="quote-text">&#x201C;{{ .text }}&#x201D;</p>
+        <footer class="quote-author">— {{ .author }}</footer>
+      </blockquote>
+    </div>
+    {{- end }}
+
+    {{- with site.Params.aboutSection }}
+    <div class="baroque-card about-card">
+      <div class="card-corner card-corner-tl">❬</div>
+      <div class="card-corner card-corner-tr">❭</div>
+      <div class="card-corner card-corner-bl">❬</div>
+      <div class="card-corner card-corner-br">❭</div>
+      <h3 class="about-title">✦ 关于我 ✦</h3>
+      <div class="about-body">
+        {{- with .avatar }}
+        <img src="{{ . }}" alt="avatar" class="about-avatar">
+        {{- end }}
+        <p class="about-desc">{{ .description | safeHTML }}</p>
+      </div>
+      <a href="/about/" class="about-link">{{ .linkText | default "了解更多" }} →</a>
+    </div>
+    {{- end }}
+
+  </section>
+
+</div>
+{{- end }}
