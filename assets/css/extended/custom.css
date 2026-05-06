@@ -132,7 +132,7 @@ hr {
    BAROQUE HEADER
    ══════════════════════════════════════════════════ */
 .baroque-header {
-  background: rgba(237, 228, 200, 0.95);
+  background: rgba(236, 220, 200, 0.96);
   backdrop-filter: blur(2px);
   position: sticky;
   top: 0;
@@ -140,7 +140,7 @@ hr {
   box-shadow: 0 2px 12px var(--shadow);
 }
 .dark .baroque-header {
-  background: rgba(14, 9, 4, 0.95);
+  background: rgba(14, 9, 4, 0.96);
 }
 
 .baroque-header-inner {
