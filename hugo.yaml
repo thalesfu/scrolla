@@ -1,6 +1,6 @@
 baseURL: "https://thalesfu.com/"
 locale: "zh-cn"
-title: "ThalesFu"
+title: "简帛与羊皮纸"
 theme: PaperMod
 paginate: 10
 
@@ -15,8 +15,8 @@ minify:
 
 params:
   env: production
-  title: ThalesFu
-  description: "ThalesFu 的个人博客"
+  title: "简帛与羊皮纸"
+  description: "一幅画，一本书，一段人生"
   keywords: [Blog, Portfolio]
   author: ThalesFu
   DateFormat: "2006-01-02"
@@ -44,8 +44,8 @@ params:
     favicon: "/favicon.ico"
 
   homeInfoParams:
-    Title: "Hi, I'm ThalesFu"
-    Content: "欢迎来到我的博客，这里记录技术、思考和生活。"
+    Title: "简帛与羊皮纸"
+    Content: "一幅画，一本书，一段人生"
 
   socialIcons:
     - name: github

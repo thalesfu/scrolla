@@ -1,0 +1,138 @@
+/* ── Renaissance color palette ── */
+:root {
+  --theme: #f7f0e3;
+  --entry: #ede0c4;
+  --primary: #2a1508;
+  --secondary: #7a5520;
+  --tertiary: rgba(180, 120, 20, 0.12);
+  --content: #2a1508;
+  --code-block-bg: #1a0d05;
+  --code-bg: rgba(180, 120, 20, 0.12);
+  --border: #c8960c;
+  --gold: #c8960c;
+  --deep-red: #8b1a1a;
+}
+
+.dark {
+  --theme: #1a0d05;
+  --entry: #2a1508;
+  --primary: #f5ead9;
+  --secondary: #c8960c;
+  --tertiary: rgba(200, 150, 12, 0.12);
+  --content: #e8d5b5;
+  --code-block-bg: #0d0600;
+  --code-bg: rgba(200, 150, 12, 0.12);
+  --border: #7a5520;
+  --gold: #c8960c;
+  --deep-red: #c04040;
+}
+
+/* ── Typography ── */
+body {
+  font-family: "Noto Serif SC", "EB Garamond", "SimSun", Georgia, serif;
+}
+
+.post-title,
+.entry-header h2,
+h1, h2, h3 {
+  font-family: "Noto Serif SC", "EB Garamond", serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ── Banner ── */
+.banner-hero {
+  width: 100%;
+  max-height: 420px;
+  overflow: hidden;
+  margin-bottom: 0;
+  display: block;
+}
+
+.banner-hero img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+}
+
+/* ── Home info below banner ── */
+.home-info {
+  border-top: 3px solid var(--gold);
+  border-bottom: 3px solid var(--gold);
+  border-left: none;
+  border-right: none;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  background: transparent;
+  box-shadow: none;
+}
+
+.site-title-main {
+  font-size: 2rem;
+  color: var(--primary);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.3rem;
+}
+
+.site-subtitle {
+  font-size: 1rem;
+  color: var(--secondary);
+  font-style: italic;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+/* ── Header / Nav ── */
+.header {
+  border-bottom: 2px solid var(--gold);
+  background: var(--theme);
+}
+
+#menu a {
+  font-family: "Noto Serif SC", serif;
+  letter-spacing: 0.04em;
+}
+
+/* ── Post cards ── */
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+
+.post-entry:hover {
+  box-shadow: 0 2px 12px rgba(180, 120, 20, 0.2);
+}
+
+/* ── Links ── */
+a {
+  color: var(--deep-red);
+}
+
+a:hover {
+  color: var(--gold);
+}
+
+/* ── Code ── */
+.post-content code {
+  font-family: "Courier New", monospace;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+
+/* ── HR divider ── */
+hr {
+  border-color: var(--gold);
+  opacity: 0.4;
+}
+
+/* ── Footer ── */
+.footer {
+  border-top: 1px solid var(--gold);
+  font-family: "Noto Serif SC", serif;
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
