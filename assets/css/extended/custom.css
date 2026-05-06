@@ -4,8 +4,8 @@
 
 /* ── Variables ── */
 :root {
-  --theme:       #ede4c8;
-  --entry:       #e4d9b4;
+  --theme:       #ecdcc8;
+  --entry:       #e3d0b8;
   --primary:     #1e0f06;
   --secondary:   #6b4020;
   --tertiary:    rgba(160, 110, 20, 0.1);
@@ -51,7 +51,7 @@
 /* Base parchment — warm SVG fractal noise tiles over the solid color */
 body {
   font-family: "Noto Serif SC", "Cormorant Garamond", Georgia, serif;
-  background-color: #ede4c8;
+  background-color: #ecdcc8;
   /* Fractal noise grain — warm amber tint at ~9% alpha, tiling 250px */
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='250' height='250'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0.65 0 0 0 0 0.47 0 0 0 0 0.18 0 0 0 0.09 0'/></filter><rect width='250' height='250' filter='url(%23p)'/></svg>");
   background-size: 250px 250px;
