@@ -8,13 +8,12 @@
 
     <div class="hero-painting-col">
       <div class="painting-frame-outer">
-        <div class="painting-arch-clip">
-          <img src="/images/banner.jpg" alt="{{ site.Title }}" loading="eager">
+        {{/* 画作层：被 mask 裁切到画框开口形状 */}}
+        <div class="painting-inner">
+          <img class="painting-img" src="/images/banner.jpg" alt="{{ site.Title }}" loading="eager">
         </div>
-        <div class="frame-corner frame-corner-tl"></div>
-        <div class="frame-corner frame-corner-tr"></div>
-        <div class="frame-corner frame-corner-bl"></div>
-        <div class="frame-corner frame-corner-br"></div>
+        {{/* 画框叠加层：透明中心露出画作，不透明边框遮住边缘 */}}
+        <img class="frame-overlay" src="/images/pictureframe.png" alt="" aria-hidden="true">
       </div>
     </div>
 

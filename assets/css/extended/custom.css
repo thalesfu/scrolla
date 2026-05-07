@@ -2,6 +2,45 @@
    Baroque CSS — 简帛与羊皮纸
    ═══════════════════════════════════════════════════ */
 
+/* ── Web Fonts ── */
+@font-face {
+  font-family: "CangErJinKai";
+  src: url("/fonts/CangErJinKai-W01.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CangErJinKai";
+  src: url("/fonts/CangErJinKai-W02.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CangErJinKai";
+  src: url("/fonts/CangErJinKai-W03.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CangErJinKai";
+  src: url("/fonts/CangErJinKai-W04.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CangErJinKai";
+  src: url("/fonts/CangErJinKai-W05.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FZLiuGQKSJF";
+  src: url("/fonts/FZLiuGQKSJF.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
 /* ── Variables ── */
 :root {
   --theme:       #ecdcc8;
@@ -49,7 +88,8 @@
    ══════════════════════════════════════════════════ */
 
 /* Base parchment — warm SVG fractal noise tiles over the solid color */
-body {
+/* body.list: override PaperMod's .list{background:var(--code-bg)} which is near-transparent */
+body, body.list {
   font-family: "Noto Serif SC", "Cormorant Garamond", Georgia, serif;
   background-color: #ecdcc8;
   /* Fractal noise grain — warm amber tint at ~9% alpha, tiling 250px */
@@ -95,18 +135,24 @@ body::before {
    ══════════════════════════════════════════════════ */
 .baroque-orn {
   position: fixed;
-  top: 30%;
-  font-size: 300px;
-  color: var(--gold);
-  opacity: 0.07;
+  top: 3%;
+  width: min(760px, 55vw);
+  height: auto;
   pointer-events: none;
   z-index: 0;
-  line-height: 1;
-  font-family: "Cormorant Garamond", serif;
   user-select: none;
+  opacity: 0.62;
+  mix-blend-mode: multiply;
 }
-.baroque-orn-left  { left:  -80px; transform: rotate(12deg); }
-.baroque-orn-right { right: -80px; transform: rotate(-12deg) scaleX(-1); }
+.baroque-orn-left  { left:  -160px; }
+.baroque-orn-right { right: -380px; opacity: 0.35; }
+
+/* 深色模式切换 blend mode */
+.dark .baroque-orn,
+[data-theme="dark"] .baroque-orn {
+  mix-blend-mode: screen;
+  opacity: 0.18;
+}
 
 /* ══════════════════════════════════════════════════
    TYPOGRAPHY
@@ -145,18 +191,18 @@ hr {
 .baroque-header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   max-width: var(--main-width);
   margin: 0 auto;
-  padding: 1rem 1.5rem 0.5rem;
-  gap: 1rem;
+  padding: 1.6rem 2rem 0.7rem;
+  gap: 4.8rem;
 }
 
 .baroque-nav {
   display: flex;
   align-items: center;
-  gap: 1.4rem;
-  min-width: 140px;
+  gap: 4rem;
+  min-width: unset;
 }
 .baroque-nav-right { justify-content: flex-end; }
 
@@ -173,22 +219,21 @@ hr {
 .baroque-nav a.active { color: var(--gold); }
 
 .baroque-header-brand {
-  flex: 1;
   text-align: center;
 }
 .brand-title-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.6rem;
+  gap: 4.4rem;
 }
 .brand-name {
-  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-family: "FZLiuGQKSJF", "Noto Serif SC", serif;
+  font-size: 1.9rem;
+  font-weight: normal;
   color: var(--primary);
   text-decoration: none;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.2em;
 }
 .brand-name:hover { color: var(--gold); }
 .brand-orn {
@@ -196,12 +241,26 @@ hr {
   font-size: 1.1rem;
   opacity: 0.7;
 }
+.brand-orn-img {
+  height: 3rem;
+  width: auto;
+  mix-blend-mode: multiply;
+  opacity: 0.88;
+  transform: translateY(0.5rem);
+}
+.dark .brand-orn-img,
+[data-theme="dark"] .brand-orn-img {
+  mix-blend-mode: screen;
+  opacity: 0.75;
+}
 .brand-tagline {
-  font-style: italic;
-  font-size: 0.85rem;
+  font-family: "FZLiuGQKSJF", "Noto Serif SC", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.88rem;
   color: var(--secondary);
-  margin: 0.1rem 0 0;
-  letter-spacing: 0.08em;
+  margin: 0.45rem 0 0;
+  letter-spacing: 0.18em;
 }
 
 .baroque-theme-btn {
@@ -268,25 +327,27 @@ hr {
 /* ── Painting Frame ── */
 .hero-painting-col { position: relative; }
 
+/* 外层容器：按画框图片的真实宽高比撑开 */
 .painting-frame-outer {
   position: relative;
-  display: inline-block;
   width: 100%;
+  aspect-ratio: 500 / 489;
 }
 
-.painting-arch-clip {
-  border-radius: 50% 50% 2% 2% / 22% 22% 2% 2%;
+/* 画作容器：用画框 mask 裁切到开口形状，防止缩放溢出 */
+.painting-inner {
+  position: absolute;
+  inset: 0;
+  -webkit-mask-image: url('/images/pictureframe_mask.png');
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-mode: luminance;
+  mask-image: url('/images/pictureframe_mask.png');
+  mask-size: 100% 100%;
+  mask-mode: luminance;
   overflow: hidden;
-  border: 4px solid var(--gold);
-  box-shadow:
-    0 0 0 2px var(--theme),
-    0 0 0 5px var(--gold),
-    0 0 0 7px var(--theme),
-    8px 8px 30px var(--shadow);
-  aspect-ratio: 4/5;
 }
 
-.painting-arch-clip img {
+.painting-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -294,23 +355,21 @@ hr {
   display: block;
   transition: transform 0.6s ease;
 }
-.painting-arch-clip:hover img { transform: scale(1.03); }
-
-/* Frame corner ornaments */
-.frame-corner {
-  position: absolute;
-  color: var(--gold);
-  font-size: 1.8rem;
-  font-family: "Cormorant Garamond", serif;
-  line-height: 1;
-  pointer-events: none;
-  text-shadow: 0 0 8px rgba(184,134,11,0.5);
+.painting-frame-outer:hover .painting-img {
+  transform: scale(1.04);
 }
-.frame-corner::before { content: "✦"; }
-.frame-corner-tl { top: -14px; left:  -14px; }
-.frame-corner-tr { top: -14px; right: -14px; }
-.frame-corner-bl { bottom: -14px; left:  -14px; }
-.frame-corner-br { bottom: -14px; right: -14px; }
+
+/* 画框叠加层：覆盖在画作上，透明中心露出画，边框遮住边缘 */
+.frame-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+  display: block;
+  filter: drop-shadow(8px 12px 24px var(--shadow));
+}
 
 /* ── Hero Text ── */
 .hero-text-col {
@@ -327,6 +386,8 @@ hr {
   letter-spacing: 0.08em;
 }
 .hero-site-title {
+  font-family: "FZLiuGQKSJF", "Noto Serif SC", serif;
+  font-weight: normal;
   font-size: 2.8rem;
   color: var(--primary);
   margin: 0;
