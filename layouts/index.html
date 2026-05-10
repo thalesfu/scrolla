@@ -18,41 +18,44 @@
     </div>
 
     <div class="hero-text-col">
-      <p class="hero-welcome">Welcome</p>
-      <h1 class="hero-site-title">{{ site.Title }}</h1>
-      <div class="hero-divider">
-        <span class="divider-line"></span>
-        <span class="divider-gem">❧</span>
-        <span class="divider-line"></span>
+      <div class="hero-title-group">
+        <p class="hero-welcome">Welcome</p>
+        <h1 class="hero-site-title">{{ site.Title }}</h1>
+        <div class="hero-divider">
+          <img class="divider-ornament" src="/images/baroqueornamentaldivider.png" alt="" aria-hidden="true">
+        </div>
       </div>
       <div class="hero-description">
         {{- site.Params.hero.description | safeHTML }}
       </div>
       <a href="{{ site.Params.hero.ctaLink | default "/posts/" }}" class="hero-cta">
         {{ site.Params.hero.ctaText | default "最新文章" }}
-        <span class="cta-arrow"> ─────→</span>
       </a>
     </div>
 
   </section>
+
+  {{/* ══════════ Content Layer (posts + bottom) ══════════ */}}
+  <div class="baroque-content-layer">
 
   {{/* ══════════ Recent Posts ══════════ */}}
   <section class="baroque-posts-section">
 
     <div class="section-title-row">
       <span class="stitle-rule"></span>
-      <span class="stitle-gem">❧</span>
+      <img class="stitle-arrow stitle-arrow-left" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
       <h2 class="stitle-text">最新文章</h2>
-      <span class="stitle-gem">❧</span>
+      <img class="stitle-arrow stitle-arrow-right" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
       <span class="stitle-rule"></span>
     </div>
 
     <div class="baroque-grid">
       {{- range $posts }}
+      {{- $post := . }}
       <article class="bpost-card">
         <div class="bpost-cover">
           {{- with .Params.cover.image }}
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          <img src="{{ . }}" alt="{{ $post.Params.cover.alt | default $post.Title }}" loading="lazy">
           {{- else }}
           <div class="bpost-cover-gradient"></div>
           {{- end }}
@@ -81,7 +84,11 @@
     </div>
 
     <div class="browse-all-row">
-      <a href="/posts/" class="browse-all-btn">← 浏览所有文章 →</a>
+      <a href="/posts/" class="browse-all-btn">
+        <img class="browse-arrow browse-arrow-left" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
+        浏览所有文章
+        <img class="browse-arrow browse-arrow-right" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
+      </a>
     </div>
 
   </section>
@@ -120,6 +127,8 @@
     {{- end }}
 
   </section>
+
+  </div>{{/* end baroque-content-layer */}}
 
 </div>
 {{- end }}

@@ -258,7 +258,7 @@ hr {
   font-weight: normal;
   font-style: normal;
   font-size: 0.88rem;
-  color: var(--secondary);
+  color: #736049;
   margin: 0.45rem 0 0;
   letter-spacing: 0.18em;
 }
@@ -317,9 +317,9 @@ hr {
    ══════════════════════════════════════════════════ */
 .baroque-hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 5rem;
+  align-items: flex-start;
   margin-bottom: 5rem;
   min-height: 480px;
 }
@@ -375,21 +375,32 @@ hr {
 .hero-text-col {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.4rem;
+  padding-top: 0.8rem;
+}
+/* 标题组：以标题宽度为基准，Welcome 和分隔线在其中居中 */
+.hero-title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  align-self: flex-start;
 }
 .hero-welcome {
-  font-family: "Cormorant Garamond", serif;
-  font-style: italic;
-  font-size: 1.4rem;
-  color: var(--gold);
+  font-family: "Pinyon Script", "Cormorant Garamond", serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #b99b6a;
   margin: 0;
-  letter-spacing: 0.08em;
+  margin-bottom: 1.3rem;
+  letter-spacing: 0.2em;
+  line-height: 1.1;
 }
 .hero-site-title {
   font-family: "FZLiuGQKSJF", "Noto Serif SC", serif;
   font-weight: normal;
   font-size: 2.8rem;
-  color: var(--primary);
+  color: #513510;
   margin: 0;
   letter-spacing: 0.06em;
   line-height: 1.2;
@@ -397,18 +408,26 @@ hr {
 .hero-divider {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  justify-content: center;
+  margin: 1.7rem 0 0.9rem;
+  width: 100%;
 }
-.hero-divider .divider-line {
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--gold), transparent);
+.divider-ornament {
+  width: min(90px, 35%);
+  height: auto;
+  display: block;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
-.hero-divider .divider-gem { color: var(--gold); font-size: 1rem; }
+.dark .divider-ornament,
+[data-theme="dark"] .divider-ornament {
+  mix-blend-mode: screen;
+  opacity: 0.7;
+}
 .hero-description {
   font-size: 1rem;
-  line-height: 2;
-  color: var(--secondary);
+  line-height: 2.0;
+  color: #736049;
 }
 .hero-cta {
   display: inline-flex;
@@ -424,9 +443,21 @@ hr {
   text-decoration: none;
   transition: background 0.2s, transform 0.2s;
   align-self: flex-start;
+  margin-top: 0.8rem;
 }
 .hero-cta:hover { background: #8b0000; color: #fff5e0; transform: translateX(2px); }
 .cta-arrow { font-family: monospace; font-size: 0.8rem; opacity: 0.85; letter-spacing: -0.05em; }
+
+/* ══════════════════════════════════════════════════
+   CONTENT LAYER (wraps posts + bottom sections)
+   ══════════════════════════════════════════════════ */
+.baroque-content-layer {
+  background: rgba(255, 248, 230, 0.28);
+  border-radius: 2px;
+  padding: 3rem 2.5rem 3.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 0 1px rgba(180, 140, 60, 0.12), 0 4px 24px rgba(90, 50, 8, 0.06);
+}
 
 /* ══════════════════════════════════════════════════
    POSTS SECTION
@@ -447,6 +478,8 @@ hr {
 }
 .stitle-rule:last-of-type { background: linear-gradient(to left, transparent, var(--gold)); }
 .stitle-gem { color: var(--gold); font-size: 0.9rem; }
+.stitle-arrow { height: 20px; width: auto; opacity: 0.8; mix-blend-mode: multiply; flex-shrink: 0; }
+.stitle-arrow-left { transform: scaleX(-1); }
 .stitle-text {
   font-size: 1.5rem;
   color: var(--primary);
@@ -497,7 +530,9 @@ hr {
 
 .browse-all-row { text-align: center; margin-top: 2.5rem; }
 .browse-all-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
   padding: 0.55rem 1.8rem;
   border: 1px solid var(--gold);
   color: var(--secondary);
@@ -508,6 +543,13 @@ hr {
   transition: background 0.2s, color 0.2s;
 }
 .browse-all-btn:hover { background: var(--gold); color: var(--theme); }
+.browse-arrow {
+  height: 18px;
+  width: auto;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+}
+.browse-arrow-left { transform: scaleX(-1); }
 
 /* ══════════════════════════════════════════════════
    QUOTE + ABOUT
