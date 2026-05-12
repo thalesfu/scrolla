@@ -123,7 +123,7 @@ params:
 
   aboutSection:
     avatar: "/images/profile_titian.png"
-    description: "热爱阅读、写作与思考的探索者。<br>相信文字与记录的力量，<br>也相信技术能让思法照进现实。"
+    description: "偏爱有时间感的事物：<br>书、画、历史、城市与日常。<br>在这些缓慢的痕迹里，<br>更清醒地理解自己所在的世界。"
     linkText: "了解更多"
 
   socialIcons:
