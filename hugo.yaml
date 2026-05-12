@@ -24,7 +24,7 @@ params:
   title: "简帛与羊皮纸"
   description: "一幅画，一本书，一段人生"
   keywords: [Blog, 读书, 技术, 随笔]
-  author: ThalesFu
+  author: 泰勒斯
   DateFormat: "2006-01-02"
   defaultTheme: auto
   disableThemeToggle: false
