@@ -1,5 +1,7 @@
 baseURL: "https://thalesfu.com/"
 locale: "zh-cn"
+defaultContentLanguage: zh-cn
+hasCJKLanguage: true
 title: "简帛与羊皮纸"
 theme: PaperMod
 paginate: 10
