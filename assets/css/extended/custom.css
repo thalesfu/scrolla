@@ -309,6 +309,13 @@ hr {
   font-size: 0.7rem;
   opacity: 0.8;
 }
+.rule-gem-img {
+  height: 12px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
 
 /* ══════════════════════════════════════════════════
    MAIN CONTAINER
