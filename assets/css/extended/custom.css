@@ -147,6 +147,9 @@ body::before {
 .baroque-orn-left  { left:  -160px; }
 .baroque-orn-right { right: -380px; opacity: 0.35; }
 
+/* 列表页左侧植物底纹对齐详情页（详情页 3%×4348px≈130px，两者 paper 顶部同为 205px）*/
+body.list .baroque-orn-left { top: 130px; }
+
 /* 深色模式切换 blend mode */
 .dark .baroque-orn,
 [data-theme="dark"] .baroque-orn {
@@ -577,7 +580,7 @@ hr {
 }
 
 .bpost-card {
-  background: #f0e3d1;
+  background: rgba(255, 248, 230, 0.28);
   border: 1px solid #c8b89e;
   box-shadow: 3px 3px 16px var(--shadow);
   transition: transform 0.2s, box-shadow 0.2s;
@@ -667,7 +670,7 @@ hr {
 .card-ornament-br { bottom: 0; right: 0; transform: rotate(180deg); }
 
 /* Quote card */
-.quote-card { background: #e4d1b4; border: 1px solid #c3a67f; overflow: visible; min-height: 150px; display: flex; align-items: stretch; }
+.quote-card { background: rgba(228, 209, 180, 0.28); border: 1px solid #c3a67f; overflow: visible; min-height: 150px; display: flex; align-items: stretch; }
 .quote-card .card-corner { color: #c3a67f; }
 .quote-angel {
   position: absolute;
@@ -699,7 +702,7 @@ hr {
 }
 
 /* About card */
-.about-card { background: #f3e7d3; border: 1px solid #cbaf8c; }
+.about-card { background: rgba(243, 231, 211, 0.28); border: 1px solid #cbaf8c; }
 .about-card .card-corner { color: #cbaf8c; }
 .about-title-rhombus { height: 18px; width: auto; opacity: 0.85; mix-blend-mode: multiply; }
 .about-body { display: flex; gap: 1.4rem; align-items: flex-start; }
@@ -795,8 +798,8 @@ hr {
 .baroque-list-frame {
   background: rgba(255, 248, 230, 0.28);
   border-radius: 2px;
-  padding: 2.5rem 2.5rem 1.2rem;
-  margin: 1.6rem 0 0;
+  padding: 2rem 2.5rem 1.2rem;
+  margin: 4rem 0 0;
   box-shadow: 0 0 0 1px #deccb5, 0 4px 24px rgba(90, 50, 8, 0.06);
 }
 
@@ -924,7 +927,7 @@ hr {
    ══════════════════════════════════════════════════ */
 .post-single {
   border: 1px solid #c8b89e;
-  background: #f0e3d1;
+  background: rgba(255, 248, 230, 0.28);
   box-shadow: 3px 3px 16px var(--shadow);
   padding: 2rem 2.4rem 2.4rem;
   margin-top: 4rem;
@@ -938,6 +941,8 @@ hr {
   display: flex;
   align-items: center;
   gap: 0;
+  font-family: "CangErJinKai", serif;
+  font-size: 16px;
 }
 .list-breadcrumb-row .breadcrumbs {
   display: flex;
@@ -945,9 +950,6 @@ hr {
   margin: 0;
 }
 .list-bc-current {
-  font-family: "Noto Serif SC", "Cormorant Garamond", Georgia, serif;
-  font-size: 1rem;
-  font-weight: 400;
   color: rgb(107, 26, 26);
 }
 .list-rss-btn {
