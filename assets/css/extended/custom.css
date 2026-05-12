@@ -150,6 +150,9 @@ body::before {
 /* 列表页左侧植物底纹对齐详情页（详情页 3%×4348px≈130px，两者 paper 顶部同为 205px）*/
 body.list .baroque-orn-left { top: 130px; }
 
+/* 详情页右侧植物底纹对齐列表页（列表页 3%×2554px≈77px）*/
+body:not(.list) .baroque-orn-right { top: 77px; }
+
 /* 深色模式切换 blend mode */
 .dark .baroque-orn,
 [data-theme="dark"] .baroque-orn {
