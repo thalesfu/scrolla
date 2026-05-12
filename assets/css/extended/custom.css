@@ -163,6 +163,15 @@ h1, h2, h3, h4 {
   letter-spacing: 0.03em;
 }
 
+/* 仅文章详情页标题换字体 */
+.post-single h1,
+.post-single h2,
+.post-single h3,
+.post-single h4 {
+  font-family: "CangErJinKai", serif;
+  font-weight: 700;
+}
+
 a { color: var(--burgundy); }
 a:hover { color: var(--gold); }
 
@@ -331,6 +340,9 @@ hr {
   right: -10px;
   transform: scaleX(-1);
 }
+/* 文章详情页花纹压在纸上 */
+.post-corner-orn-bl { left: 12px; }
+.post-corner-orn-br { right: 12px; }
 
 /* ══════════════════════════════════════════════════
    HERO SECTION
@@ -726,20 +738,52 @@ hr {
    POST CARDS (list pages)
    ══════════════════════════════════════════════════ */
 .post-entry {
-  border: 1px solid var(--border);
-  background: var(--entry);
+  border: 1px solid #c8b89e;
+  background: #f0e3d1;
   border-radius: 0;
-  box-shadow: 2px 2px 12px var(--shadow);
+  box-shadow: 3px 3px 16px var(--shadow);
   transition: transform 0.2s, box-shadow 0.2s;
 }
-.post-entry:hover { transform: translateY(-2px); box-shadow: 4px 6px 18px var(--shadow); }
-.entry-header h2 { font-family: "Cormorant Garamond", "Noto Serif SC", serif; font-size: 1.35rem; }
+.post-entry:hover { transform: translateY(-4px); box-shadow: 5px 8px 24px var(--shadow); }
+
+/* 标题 */
+.entry-header h2 {
+  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #5e4c3c;
+}
+.entry-header h2 a { color: #5e4c3c; }
+.entry-header h2 a:hover { color: var(--gold); }
+
+/* 简介 */
+.entry-content p {
+  font-size: 0.87rem;
+  color: #7b6954;
+  line-height: 2.0;
+}
+
+/* 日期／作者 meta 行 */
+.entry-footer {
+  font-size: 0.78rem;
+  color: #806d55;
+}
 
 /* ══════════════════════════════════════════════════
    SINGLE POST
    ══════════════════════════════════════════════════ */
-.post-title { font-family: "Cormorant Garamond", "Noto Serif SC", serif; font-size: 2.2rem; letter-spacing: 0.04em; }
-.post-content p { line-height: 1.9; font-size: 1.02rem; }
+.post-single {
+  border: 1px solid #c8b89e;
+  background: #f0e3d1;
+  box-shadow: 3px 3px 16px var(--shadow);
+  padding: 2rem 2.4rem 2.4rem;
+  margin-top: 4rem;
+  font-family: "CangErJinKai", serif;
+  font-weight: 500;
+}
+.post-single .post-title { font-family: "FZLiuGQKSJF", serif; font-weight: normal; font-size: 2.9rem; letter-spacing: 0.04em; color: #5e4c3c; margin-top: 1.5rem; }
+.post-meta { color: #806d55; font-size: 0.78rem; }
+.post-content p { line-height: 1.9; font-size: 1.35rem; color: #7b6954; letter-spacing: 0.04em; }
 .post-content > p:first-of-type::first-letter {
   font-family: "Cormorant Garamond", serif;
   font-size: 3.8em;
@@ -750,6 +794,61 @@ hr {
   color: var(--gold);
 }
 .post-content code { font-family: "Courier New", monospace; background: var(--code-bg); border: 1px solid var(--border); }
+
+/* 文章底部标签 */
+.post-tags a {
+  background: #ebdbbf;
+  border: none;
+  color: #957c5b;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.post-tags a:hover {
+  background: #e0cdb0;
+  color: #5a2e1a;
+}
+
+/* 翻页按钮 */
+.paginav {
+  background: #f0e3d1;
+  border: 1px solid #d1b083;
+  border-radius: 8px;
+}
+.paginav a:hover {
+  background: #e0cdb0;
+}
+.paginav .title { color: #957c5b; }
+.paginav span:not(.title) { color: #733b28; }
+
+/* Table of Contents */
+details.toc {
+  background: #f3e7d3;
+  border: 1px solid #cbaf8c;
+  border-radius: 8px;
+}
+details.toc summary {
+  color: #3f2a17;
+  font-family: "CangErJinKai", serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+details.toc summary:hover { color: #967357; }
+.toc a { color: #655648; font-size: 0.88rem; }
+.toc a:hover { color: #3f2a17; text-decoration-color: #cbaf8c; }
+.toc ul { color: #655648; font-size: 0.88rem; }
+
+/* 正文内子标题颜色和字号 */
+.post-content h2 { color: #5e4c3c; font-size: 2.0rem; }
+.post-content h3 { color: #6b5544; font-size: 1.7rem; }
+.post-content h4 { color: #7a6050; font-size: 1.5rem; }
+.post-content h5,
+.post-content h6 { color: #806d55; font-size: 1.35rem; }
+
+/* 列表颜色与字号和正文保持一致 */
+.post-content ul,
+.post-content ol { color: #7b6954; font-size: 1.35rem; }
+.post-content li { color: #7b6954; font-size: 1.35rem; }
 
 /* ══════════════════════════════════════════════════
    RESPONSIVE
