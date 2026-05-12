@@ -134,7 +134,7 @@ body::before {
    BAROQUE SIDE ORNAMENTS (injected via extend_footer)
    ══════════════════════════════════════════════════ */
 .baroque-orn {
-  position: fixed;
+  position: absolute;
   top: 3%;
   width: min(760px, 55vw);
   height: auto;
