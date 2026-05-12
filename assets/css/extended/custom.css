@@ -460,6 +460,8 @@ hr {
   font-size: 1rem;
   line-height: 2.0;
   color: #736049;
+  font-family: "CangErJinKai", serif;
+  font-weight: 500;
 }
 .hero-cta {
   display: inline-flex;
@@ -468,10 +470,10 @@ hr {
   background: var(--burgundy);
   color: #f5e6d0;
   padding: 0.65rem 1.4rem;
-  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-family: "CangErJinKai", serif;
   font-size: 0.95rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-weight: 700;
+  letter-spacing: 0.18em;
   text-decoration: none;
   transition: background 0.2s, transform 0.2s;
   align-self: flex-start;
@@ -518,6 +520,8 @@ hr {
   margin: 0;
   letter-spacing: 0.1em;
   white-space: nowrap;
+  font-family: "CangErJinKai", serif;
+  font-weight: 700;
 }
 
 /* 3-column grid */
@@ -552,11 +556,11 @@ hr {
 
 .bpost-body { padding: 1rem 1.2rem 1.2rem; display: flex; flex-direction: column; flex: 1; }
 .bpost-cat { font-size: 0.75rem; color: #957c5b; font-style: normal; letter-spacing: 0.06em; display: inline-block; margin-bottom: 0.9rem; background: #ebdbbf; padding: 0.18em 0.6em; border-radius: 4px; align-self: flex-start; }
-.bpost-title { font-size: 1.1rem; margin: 0 0 1rem; line-height: 1.4; }
+.bpost-title { font-size: 1.1rem; margin: 0 0 1rem; line-height: 1.4; font-family: "CangErJinKai", serif; font-weight: 700; }
 .bpost-title a { color: #5e4c3c; text-decoration: none; }
 .bpost-title a:hover { color: var(--gold); }
-.bpost-summary { font-size: 0.87rem; color: #7b6954; line-height: 2.0; margin: 0 0 0.8rem; flex: 1; }
-.bpost-meta { display: flex; align-items: center; gap: 0.6rem; font-size: 0.78rem; color: #806d55; flex-wrap: wrap; }
+.bpost-summary { font-size: 0.87rem; color: #7b6954; line-height: 2.0; margin: 0 0 0.8rem; flex: 1; font-family: "CangErJinKai", serif; font-weight: 500; }
+.bpost-meta { display: flex; align-items: center; gap: 0.6rem; font-size: 0.78rem; color: #806d55; flex-wrap: wrap; font-family: "CangErJinKai", serif; font-weight: 500; }
 .bpost-meta span::after { content: "•"; margin-left: 0.6rem; font-size: 1.3em; line-height: 1; vertical-align: middle; color: #74531a; }
 .bpost-meta span:last-of-type::after { content: ""; }
 .bpost-arrow { margin-left: auto; color: #a27b41; text-decoration: none; font-size: 1rem; transition: transform 0.2s, color 0.2s; }
@@ -571,7 +575,8 @@ hr {
   border: 1px solid #d1b083;
   background: #f0e3d1;
   color: #733b28;
-  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-family: "CangErJinKai", serif;
+  font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -637,8 +642,12 @@ hr {
   justify-content: space-evenly;
   align-items: center;
 }
-.quote-text { font-family: "Cormorant Garamond", serif; font-size: 1.42rem; font-style: italic; color: #654619; line-height: 1.5; margin: 0; }
-.quote-author { font-size: 0.9rem; color: #654a2c; letter-spacing: 0.06em; margin: 0; }
+.quote-body { quotes: none; }
+.quote-body::before, .quote-body::after { content: none; }
+.quote-text { font-family: "CangErJinKai", serif; font-weight: 500; font-size: 1.42rem; font-style: normal; color: #654619; line-height: 1.5; margin: 0; letter-spacing: 0.12em; }
+.quote-text::before { content: '\201C'; }
+.quote-text::after  { content: '\201D'; }
+.quote-author { font-family: "CangErJinKai", serif; font-weight: 500; font-size: 0.9rem; color: #654a2c; letter-spacing: 0.06em; margin: 0; }
 .quote-wing {
   width: 105px;
   opacity: 0.75;
@@ -650,7 +659,7 @@ hr {
 .about-title-rhombus { height: 18px; width: auto; opacity: 0.85; mix-blend-mode: multiply; }
 .about-body { display: flex; gap: 1.4rem; align-items: flex-start; }
 .about-left-col { display: flex; flex-direction: column; align-items: center; gap: 0.6rem; flex-shrink: 0; }
-.about-title { font-size: 1rem; letter-spacing: 0.15em; color: #3f2a17; margin: 0; text-align: center; display: flex; align-items: center; justify-content: center; gap: 0.4rem; }
+.about-title { font-size: 1rem; letter-spacing: 0.15em; color: #3f2a17; margin: 0; text-align: center; display: flex; align-items: center; justify-content: center; gap: 0.4rem; font-family: "CangErJinKai", serif; font-weight: 700; }
 .about-avatar-wrap {
   width: 110px;
   height: 110px;
@@ -670,8 +679,8 @@ hr {
   transform-origin: center 5%;
 }
 .about-text-col { display: flex; flex-direction: column; gap: 1rem; flex: 1; }
-.about-desc { font-size: 0.9rem; color: #655648; line-height: 1.8; margin: 0; }
-.about-link { font-size: 0.88rem; color: #967357; text-decoration: underline; text-underline-offset: 3px; font-style: normal; letter-spacing: 0.03em; align-self: flex-start; }
+.about-desc { font-size: 0.9rem; color: #655648; line-height: 1.8; margin: 0; font-family: "CangErJinKai", serif; font-weight: 500; }
+.about-link { font-size: 0.88rem; color: #967357; text-decoration: underline; text-underline-offset: 3px; font-style: normal; letter-spacing: 0.03em; align-self: flex-start; font-family: "CangErJinKai", serif; font-weight: 500; }
 .about-link:hover { color: #3f2a17; }
 
 /* ══════════════════════════════════════════════════
@@ -724,7 +733,8 @@ hr {
    ══════════════════════════════════════════════════ */
 .footer {
   border-top: none;
-  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+  font-family: "CangErJinKai", serif;
+  font-weight: 500;
   font-size: 0.85rem;
   color: var(--secondary);
   text-align: center;
