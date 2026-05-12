@@ -18,7 +18,7 @@
 {{- end }}
 
 {{- $term := .Data.Term }}
-{{- $wrapPostsList := and (eq .Kind "section") (eq .Section "posts") }}
+{{- $wrapPostsList := or (and (eq .Kind "section") (eq .Section "posts")) (eq .Kind "term") }}
 {{- if $wrapPostsList }}
 <div class="baroque-list-frame posts-list-frame" style="position:relative;">
   <img class="post-orn post-orn-tl" src="/images/baroque_left_top_v2.png" alt="" aria-hidden="true">

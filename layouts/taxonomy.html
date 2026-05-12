@@ -1,0 +1,39 @@
+{{- define "main" }}
+
+<div class="baroque-list-frame posts-list-frame" style="position:relative;">
+  <img class="post-orn post-orn-tl" src="/images/baroque_left_top_v2.png" alt="" aria-hidden="true">
+  <img class="post-orn post-orn-tr" src="/images/baroque_left_top_v2.png" alt="" aria-hidden="true">
+
+  {{- if .Title }}
+  <header class="post-header list-page-header">
+    <div class="list-breadcrumb-row">
+      {{- partial "breadcrumbs.html" . }}
+      <span class="list-bc-current">{{ .Title }}</span>
+    </div>
+  </header>
+  {{- end }}
+
+  <ul class="terms-tags">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+      {{- $name := .Name }}
+      {{- $count := .Count }}
+      {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .LinkTitle }} <sup><strong><sup>{{ $count }}</sup></strong></sup></a>
+      </li>
+      {{- end }}
+    {{- end }}
+  </ul>
+
+  <div class="post-title-rule post-bottom-rule">
+    <span class="post-title-rule-line"></span>
+    <img class="post-title-rule-arrow post-title-rule-arrow-left" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
+    <img class="post-title-rule-arrow post-title-rule-arrow-right" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
+    <span class="post-title-rule-line"></span>
+  </div>
+</div>
+<img class="baroque-corner-orn baroque-corner-orn-bl list-corner-orn-bl" src="/images/baroque_bottom_corner_tinted.png" alt="" aria-hidden="true">
+<img class="baroque-corner-orn baroque-corner-orn-br list-corner-orn-br" src="/images/baroque_bottom_corner_tinted.png" alt="" aria-hidden="true">
+
+{{- end }}{{/* end main */}}

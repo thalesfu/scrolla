@@ -997,17 +997,44 @@ hr {
 }
 .post-content code { font-family: "Courier New", monospace; background: var(--code-bg); border: 1px solid var(--border); }
 
-/* 文章底部标签 */
-.post-tags a {
+/* 文章底部标签 & Tags 页标签 — 统一样式 */
+.post-tags a,
+.terms-tags a {
+  font-family: "CangErJinKai", serif;
+  font-weight: 500;
+  font-size: 20px;
   background: #ebdbbf;
   border: none;
   color: #957c5b;
   border-radius: 4px;
+  padding: 6px 18px;
   transition: background 0.2s, color 0.2s;
 }
-.post-tags a:hover {
+.post-tags a:hover,
+.terms-tags a:hover {
   background: #e0cdb0;
   color: #5a2e1a;
+}
+
+/* Tags 页标签列表布局 */
+.terms-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin-top: 1.2rem;
+  list-style: none;
+  padding: 0;
+}
+.terms-tags li {
+  display: inline-block;
+  font-weight: 500;
+}
+/* 文章数量上标 */
+.terms-tags a sup {
+  font-size: 0.85em;
+  color: #b8956a;
+  margin-left: 4px;
+  vertical-align: super;
 }
 
 /* 翻页按钮 */
