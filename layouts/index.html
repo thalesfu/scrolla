@@ -53,13 +53,13 @@
       {{- range $posts }}
       {{- $post := . }}
       <article class="bpost-card">
-        <div class="bpost-cover">
+        <a href="{{ .Permalink }}" class="bpost-cover" tabindex="-1" aria-hidden="true">
           {{- with .Params.cover.image }}
           <img src="{{ . }}" alt="{{ $post.Params.cover.alt | default $post.Title }}" loading="lazy">
           {{- else }}
           <div class="bpost-cover-gradient"></div>
           {{- end }}
-        </div>
+        </a>
         <div class="bpost-body">
           {{- with index (.GetTerms "categories") 0 }}
           <span class="bpost-cat">{{ .LinkTitle }}</span>

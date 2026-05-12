@@ -1,6 +1,8 @@
 {{- define "main" }}
 
-<article class="post-single">
+<article class="post-single" style="position:relative;">
+  <img class="post-orn post-orn-tl" src="/images/baroque_left_top_v2.png" alt="" aria-hidden="true">
+  <img class="post-orn post-orn-tr" src="/images/baroque_left_top_v2.png" alt="" aria-hidden="true">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
@@ -62,6 +64,12 @@
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
+  <div class="post-title-rule post-bottom-rule">
+    <span class="post-title-rule-line"></span>
+    <img class="post-title-rule-arrow post-title-rule-arrow-left" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
+    <img class="post-title-rule-arrow post-title-rule-arrow-right" src="/images/baroque_right_arrow.png" alt="" aria-hidden="true">
+    <span class="post-title-rule-line"></span>
+  </div>
 </article>
 
 <img class="baroque-corner-orn baroque-corner-orn-bl post-corner-orn-bl" src="/images/baroque_bottom_corner_tinted.png" alt="" aria-hidden="true">

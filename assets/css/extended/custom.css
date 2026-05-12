@@ -344,6 +344,48 @@ hr {
 .post-corner-orn-bl { left: 12px; }
 .post-corner-orn-br { right: 12px; }
 
+
+/* 文章框顶部装饰条 */
+.post-title-rule {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.post-title-rule-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold));
+  opacity: 0.6;
+}
+.post-title-rule-line:last-of-type {
+  background: linear-gradient(to left, transparent, var(--gold));
+}
+.post-title-rule-arrow {
+  height: 20px;
+  width: auto;
+  opacity: 0.88;
+  flex-shrink: 0;
+  filter: saturate(0.58) brightness(1.12) hue-rotate(-8deg);
+}
+.post-title-rule-arrow-left  { transform: scaleX(-1); }
+.post-title-rule-arrow-right { transform: none; }
+.post-bottom-rule { margin-top: 1.2rem; margin-bottom: 0; }
+
+/* 文章框四角花纹 */
+.post-orn {
+  position: absolute;
+  width: 72px;
+  height: auto;
+  pointer-events: none;
+  opacity: 0.88;
+  z-index: 2;
+}
+.post-orn-tl { top: 0;    left: 0;   transform: none; }
+.post-orn-tr { top: 0;    right: 0;  transform: scaleX(-1); }
+.post-orn-bl { bottom: 0; left: 0;   transform: scaleY(-1); }
+.post-orn-br { bottom: 0; right: 0;  transform: scale(-1); }
+
 /* ══════════════════════════════════════════════════
    HERO SECTION
    ══════════════════════════════════════════════════ */
@@ -793,8 +835,23 @@ hr {
 }
 .post-single .post-title { font-family: "FZLiuGQKSJF", serif; font-weight: normal; font-size: 2.9rem; letter-spacing: 0.04em; color: #5e4c3c; margin-top: 1.5rem; }
 .post-meta { color: #806d55; font-size: 0.78rem; }
-.post-content p { line-height: 1.9; font-size: 1.35rem; color: #7b6954; letter-spacing: 0.04em; }
-.post-content > p:first-of-type::first-letter {
+.post-content p { line-height: 1.9; font-size: 1.35rem; color: #7b6954; letter-spacing: 0.04em; text-indent: 2em; }
+/* 首段（下沉）和图片段不缩进 */
+.post-content > p:first-of-type:not(:has(img)),
+.post-content > p:first-of-type:has(img),
+.post-content > p:first-of-type:has(img) + p { text-indent: 0; }
+/* 首字下沉：普通文章（第一段为文字） */
+.post-content > p:first-of-type:not(:has(img))::first-letter {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.8em;
+  font-weight: 700;
+  float: left;
+  line-height: 0.75;
+  margin: 0.08em 0.1em 0 0;
+  color: var(--gold);
+}
+/* 首字下沉：第一段为图片时，作用于紧接的下一段 */
+.post-content > p:first-of-type:has(img) + p::first-letter {
   font-family: "Cormorant Garamond", serif;
   font-size: 3.8em;
   font-weight: 700;
@@ -821,7 +878,7 @@ hr {
 /* 翻页按钮 */
 .paginav {
   background: #f0e3d1;
-  border: 1px solid #d1b083;
+  border: none;
   border-radius: 8px;
 }
 .paginav a:hover {
@@ -833,7 +890,7 @@ hr {
 /* Table of Contents */
 details.toc {
   background: #f3e7d3;
-  border: 1px solid #cbaf8c;
+  border: none;
   border-radius: 8px;
 }
 details.toc summary {
