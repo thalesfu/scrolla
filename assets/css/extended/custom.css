@@ -1093,3 +1093,186 @@ details.toc summary:hover { color: #967357; }
   .baroque-grid { grid-template-columns: 1fr; }
   .hero-site-title { font-size: 2rem; }
 }
+
+/* ══════════════════════════════════════════════════
+   MOBILE RESPONSIVE (added 2026-05-13)
+   Breakpoints below tested against iPhone 13 Pro Max (428×926).
+   Order: 768 → 480 → 360, narrowest last for cascade.
+   ══════════════════════════════════════════════════ */
+
+/* --- Tablet & below (768px): start tightening headers, stack post entries, shrink content media --- */
+@media (max-width: 768px) {
+  /* P0-D: content media overflow guard — images / SVG / Mermaid / video / iframe / table / pre */
+  .post-content img,
+  .post-content svg,
+  .post-content video,
+  .post-content iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  .post-content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .post-content pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* P0-B: Header — tighten gaps on tablet & below */
+  .baroque-header-inner {
+    gap: 1.2rem;
+    padding: 1rem 1rem 0.5rem;
+  }
+  .baroque-nav { gap: 1.2rem; }
+  .brand-title-row { gap: 1.2rem; }
+
+  /* P0-A: Posts list — stack cover above text instead of side-by-side */
+  .post-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .post-entry .entry-cover,
+  .post-entry .entry-cover img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    height: auto;
+  }
+  .post-entry .entry-text {
+    width: 100%;
+  }
+  .post-entry .entry-header h2 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  /* P1-B: Article (post-single) title — step down from ~46px to ~35px on tablet */
+  .post-single .post-title,
+  article.post-single h1.post-title {
+    font-size: 2.2rem;
+  }
+
+  /* P1-A: Body content — first step down from 1.35rem to 1.1rem (~17.6px) on tablet */
+  .post-content p,
+  .post-content ul,
+  .post-content ol,
+  .post-content li { font-size: 1.1rem; }
+  .post-content h2 { font-size: 1.6rem; }
+  .post-content h3 { font-size: 1.4rem; }
+  .post-content h4 { font-size: 1.25rem; }
+}
+
+/* --- Mobile (480px): primary mobile rules — covers 13 Pro Max 428px and iPhone 13 390px --- */
+@media (max-width: 480px) {
+  /* P0-A: tighter title + wrapped meta */
+  .post-entry .entry-header h2 { font-size: 1.15rem; }
+  .entry-footer,
+  .post-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    line-height: 1.6;
+  }
+
+  /* P0-C: disable drop cap on mobile — original 3.8em float:left is unreadable at 428px */
+  .post-content > p:first-of-type:not(:has(img))::first-letter,
+  .post-content > p:first-of-type:has(img) + p::first-letter {
+    font-size: 1em;
+    float: none;
+    margin: 0;
+    color: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+  }
+
+  /* P0-B: Header — keep nav + brand on a single tight row, shrink site title & laurels */
+  .baroque-header-inner {
+    gap: 0.5rem;
+    padding: 0.6rem 0.6rem 0.4rem;
+    flex-wrap: nowrap;
+  }
+  .baroque-nav { gap: 0.6rem; }
+  .baroque-nav a { font-size: 0.85rem; }
+  .brand-title-row { gap: 0.6rem; }
+  .brand-name {
+    font-size: 1.2rem;
+    letter-spacing: 0.08em;
+  }
+  .brand-orn-img { height: 1.5rem; }
+  .brand-tagline {
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    margin-top: 0.25rem;
+  }
+
+  /* P1-B: Article title — further down to ~29px so it fits one line on 428px */
+  .post-single .post-title,
+  article.post-single h1.post-title {
+    font-size: 1.8rem;
+  }
+
+  /* P1-A: Body content — final mobile step to 1rem (16px), ~22 chars per line on 428px */
+  .post-content p,
+  .post-content ul,
+  .post-content ol,
+  .post-content li {
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* P2-A: Tag chips (Tags page and in-post tags) — smaller font/padding so more fit per row */
+  .post-tags a,
+  .terms-tags a {
+    font-size: 16px;
+    padding: 4px 12px;
+  }
+  .terms-tags { gap: 0.5em; }
+
+  /* P2-C: "浏览所有文章" button — arrow PNGs render 85px wide each at h:18; clamp them so text doesn't get squeezed onto multiple lines */
+  .browse-all-btn {
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+  }
+  .browse-arrow {
+    height: 14px;
+    max-width: 28px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  /* P2-D: Home "关于我" card — stack avatar/title above description text so text gets full card width */
+  .about-card .about-body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .about-card .about-text-col {
+    width: 100%;
+  }
+  .about-card .about-left-col {
+    width: 100%;
+  }
+}
+
+/* --- Tiny screens (360px): safety net for small Android phones --- */
+@media (max-width: 360px) {
+  /* Hide tagline, further shrink site title and laurels */
+  .brand-tagline { display: none; }
+  .brand-name { font-size: 1.05rem; }
+  .brand-orn-img { height: 1.2rem; }
+
+  /* Footer compaction (428px is fine; this kicks in only on tiny screens) */
+  footer.footer,
+  .footer span {
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
