@@ -429,7 +429,10 @@ hr {
   aspect-ratio: 800 / 610;
 }
 
-/* 画作容器：用画框 mask 裁切到开口形状，防止缩放溢出 */
+/* 画作容器：用画框 mask 裁切到开口形状，防止缩放溢出。
+   注：iOS Safari 对 mask-image + mask-mode:luminance 支持不稳定，
+   会让蒙版失效后画作溢出画框装饰镂空；用 clip-path 作矩形兜底，
+   值约等于 pictureframe_wide_mask.png 的开口包围盒。 */
 .painting-inner {
   position: absolute;
   inset: 0;
@@ -439,6 +442,7 @@ hr {
   mask-image: url('/images/pictureframe_wide_mask.png');
   mask-size: 100% 100%;
   mask-mode: luminance;
+  clip-path: inset(6.7% 0.9% 6.7% 0.9%);
   overflow: hidden;
 }
 
