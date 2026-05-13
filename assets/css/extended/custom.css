@@ -1250,6 +1250,15 @@ details.toc summary:hover { color: #967357; }
     flex-shrink: 0;
   }
 
+  /* P2-E: "最新文章" section title arrows (.stitle-arrow line 578) — same long-PNG aspect-ratio
+     issue as .browse-arrow. Without clamping, arrows render 94px wide each and overflow the
+     300px section-title-row, collapsing the rule spans to width 0 and pushing the title off-center. */
+  .stitle-arrow {
+    height: 14px;
+    max-width: 28px;
+    object-fit: contain;
+  }
+
   /* P2-D: Home "关于我" card — stack avatar/title above description text so text gets full card width */
   .about-card .about-body {
     flex-direction: column;
