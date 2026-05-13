@@ -618,7 +618,7 @@ hr {
 }
 
 .bpost-body { padding: 1rem 1.2rem 1.2rem; display: flex; flex-direction: column; flex: 1; }
-.bpost-cat { font-size: 0.75rem; color: #957c5b; font-style: normal; letter-spacing: 0.06em; display: inline-block; margin-bottom: 0.9rem; background: #ebdbbf; padding: 0.18em 0.6em; border-radius: 4px; align-self: flex-start; }
+.bpost-cat { font-family: "CangErJinKai", serif; font-weight: 500; font-size: 0.75rem; color: #957c5b; font-style: normal; letter-spacing: 0.06em; display: inline-block; margin-bottom: 0.9rem; background: #ebdbbf; padding: 0.18em 0.6em; border-radius: 4px; align-self: flex-start; }
 .bpost-title { font-size: 1.1rem; margin: 0 0 1rem; line-height: 1.4; font-family: "CangErJinKai", serif; font-weight: 700; }
 .bpost-title a { color: #5e4c3c; text-decoration: none; }
 .bpost-title a:hover { color: var(--gold); }
