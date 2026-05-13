@@ -59,7 +59,8 @@
   --main-width:  1100px;
 }
 
-.dark {
+.dark,
+[data-theme="dark"] {
   --theme:       #0e0904;
   --entry:       #1c1208;
   --primary:     #f0e6d0;
@@ -120,10 +121,13 @@ body::before {
     linear-gradient(to bottom, rgba(95,52,4,0.07) 0%, transparent 10%, transparent 87%, rgba(95,52,4,0.07) 100%);
 }
 
-/* Dark mode: no parchment texture */
+/* Dark mode: no parchment texture, dark bg (covers both body and body.list) */
 .dark body,
-[data-theme="dark"] body {
+[data-theme="dark"] body,
+.dark body.list,
+[data-theme="dark"] body.list {
   background-image: none;
+  background-color: var(--theme);
 }
 .dark body::before,
 [data-theme="dark"] body::before {
@@ -199,7 +203,8 @@ hr {
   z-index: 100;
   box-shadow: 0 2px 12px var(--shadow);
 }
-.dark .baroque-header {
+.dark .baroque-header,
+[data-theme="dark"] .baroque-header {
   background: rgba(14, 9, 4, 0.96);
 }
 
@@ -1275,4 +1280,184 @@ details.toc summary:hover { color: #967357; }
     line-height: 1.6;
   }
 }
+
+/* ══════════════════════════════════════════════════
+   DARK MODE OVERRIDES (added 2026-05-13)
+   All rules use [data-theme="dark"] to match PaperMod's runtime selector
+   (the .dark class is never added by PaperMod). Orthogonal to viewport size:
+   these apply on both mobile and desktop when dark mode is on.
+   ══════════════════════════════════════════════════ */
+
+/* P0: Header tagline (line 276 hardcodes #736049 — too dark on dark header) */
+[data-theme="dark"] .brand-tagline { color: #a89372; }
+
+/* P0: Article body text colors (lines 972–1082 hardcode warm browns for parchment bg) */
+[data-theme="dark"] .post-content p,
+[data-theme="dark"] .post-content ul,
+[data-theme="dark"] .post-content ol,
+[data-theme="dark"] .post-content li { color: #d6c7a7; }
+[data-theme="dark"] .post-content h2 { color: #e0cda5; }
+[data-theme="dark"] .post-content h3 { color: #d4bf95; }
+[data-theme="dark"] .post-content h4,
+[data-theme="dark"] .post-content h5,
+[data-theme="dark"] .post-content h6 { color: #c8b186; }
+[data-theme="dark"] .post-title { color: var(--primary); }
+[data-theme="dark"] .post-meta { color: #a89372; }
+[data-theme="dark"] .post-meta a { color: var(--gold); }
+
+/* P0: Article / list frame (line 809) — semi-transparent dark warm brown */
+[data-theme="dark"] .baroque-list-frame,
+[data-theme="dark"] .posts-list-frame {
+  background: rgba(40, 28, 12, 0.45);
+  border-color: #5a4218;
+}
+[data-theme="dark"] .list-bc-current,
+[data-theme="dark"] .list-rss-btn { color: #c8960c; }
+
+/* P0: Posts list .post-entry cards (PaperMod default — force warm dark) */
+[data-theme="dark"] .post-entry {
+  background: #1c1208;
+  border-color: #5a4218;
+}
+[data-theme="dark"] .post-entry .entry-header h2,
+[data-theme="dark"] .post-entry .entry-header h2 a { color: var(--primary); }
+[data-theme="dark"] .post-entry .entry-content,
+[data-theme="dark"] .post-entry .entry-content p { color: #c4b48e; }
+[data-theme="dark"] .post-entry .entry-footer,
+[data-theme="dark"] .post-entry .post-meta { color: #a89372; }
+
+/* P0: Home .bpost-card (line 593 hardcoded parchment) — solid bg matching .post-entry on Posts list */
+[data-theme="dark"] .bpost-card {
+  background: #1c1208;
+  border-color: #5a4218;
+}
+[data-theme="dark"] .bpost-title a { color: var(--primary); }
+[data-theme="dark"] .bpost-title a:hover { color: var(--gold); }
+[data-theme="dark"] .bpost-summary { color: #c4b48e; }
+[data-theme="dark"] .bpost-meta { color: #a89372; }
+[data-theme="dark"] .bpost-meta span::after { color: var(--gold); }
+[data-theme="dark"] .bpost-cat {
+  background: rgba(200, 150, 12, 0.15);
+  color: #d4a843;
+}
+[data-theme="dark"] .bpost-arrow { color: var(--gold); }
+[data-theme="dark"] .bpost-arrow:hover { color: var(--gold-light); }
+
+/* P0: Home baroque-card (quote + about — line 661, 715 hardcoded) */
+[data-theme="dark"] .baroque-card { border: 1px solid #5a4218; }
+[data-theme="dark"] .about-card { background: rgba(28, 18, 8, 0.45); }
+[data-theme="dark"] .about-title { color: #e0cda5; }
+[data-theme="dark"] .quote-text { color: var(--content); }
+[data-theme="dark"] .quote-author { color: #a89372; }
+[data-theme="dark"] .about-card .card-corner { color: #7a5818; }
+
+/* P0: Tag chips on Tags page and below posts (line 1006) */
+[data-theme="dark"] .post-tags a,
+[data-theme="dark"] .terms-tags a {
+  background: rgba(200, 150, 12, 0.15);
+  color: #d4a843;
+}
+[data-theme="dark"] .post-tags a:hover,
+[data-theme="dark"] .terms-tags a:hover {
+  background: rgba(200, 150, 12, 0.28);
+  color: #f0e6d0;
+}
+[data-theme="dark"] .terms-tags a sup { color: #a89372; }
+
+/* P1: "浏览所有文章" button (line 634 — hardcoded #f0e3d1 / #733b28 / #d1b083) */
+[data-theme="dark"] .browse-all-btn {
+  background: rgba(40, 28, 12, 0.5);
+  color: #d4a843;
+  border-color: #5a4218;
+}
+[data-theme="dark"] .browse-all-btn:hover {
+  background: rgba(60, 42, 18, 0.7);
+  color: #f0e6d0;
+  border-color: #7a5818;
+}
+[data-theme="dark"] .browse-arrow {
+  filter: invert(0.7) sepia(0.5) saturate(2.5) hue-rotate(15deg);
+}
+
+/* P1: Pagination .paginav (line 1042 hardcoded #f0e3d1) */
+[data-theme="dark"] .paginav {
+  background: rgba(40, 28, 12, 0.5);
+}
+[data-theme="dark"] .paginav a:hover {
+  background: rgba(60, 42, 18, 0.7);
+}
+[data-theme="dark"] .paginav .title { color: var(--gold); }
+[data-theme="dark"] .paginav span:not(.title) { color: var(--primary); }
+
+/* P1: TOC details.toc (line 1054 hardcoded #f3e7d3 — was getting overridden to neutral grey by PaperMod default dark; force warm) */
+[data-theme="dark"] details.toc {
+  background: rgba(28, 18, 8, 0.6);
+  border: 1px solid #5a4218;
+}
+[data-theme="dark"] details.toc summary { color: #e0cda5; }
+[data-theme="dark"] details.toc summary:hover { color: var(--gold); }
+[data-theme="dark"] .toc a { color: var(--content); }
+[data-theme="dark"] .toc a:hover { color: var(--gold); text-decoration-color: #7a5818; }
+[data-theme="dark"] .toc ul { color: var(--content); }
+
+/* P2: Gold decoration images — use screen blend mode and lower opacity on dark bg.
+   Existing rules already do this for .brand-orn-img (line 266), .baroque-orn (157),
+   .divider-ornament (512). Below covers the remaining decorative images. */
+[data-theme="dark"] .post-orn,
+[data-theme="dark"] .post-title-rule-arrow,
+[data-theme="dark"] .baroque-corner-orn,
+[data-theme="dark"] .card-ornament,
+[data-theme="dark"] .quote-angel,
+[data-theme="dark"] .quote-wing,
+[data-theme="dark"] .about-title-rhombus,
+[data-theme="dark"] .baroque-top-rule {
+  mix-blend-mode: screen;
+  opacity: 0.45;
+}
+
+/* Post-implementation patches (2026-05-13) — issues caught during browser tour */
+
+/* Patch 1: Hero title (.hero-site-title line 495 hardcodes #513510 dark brown — invisible on dark body) */
+[data-theme="dark"] .hero-site-title { color: var(--gold); }
+
+/* Patch 2: Article .post-single frame (line 940 hardcodes parchment overlay + #c8b89e border).
+   Use 0.45 opacity to match .baroque-list-frame so list and detail pages have the same warmth. */
+[data-theme="dark"] .post-single {
+  background: rgba(40, 28, 12, 0.45);
+  border-color: #5a4218;
+}
+
+/* Patch 3: Article title — line 949 .post-single .post-title { color: #5e4c3c } has higher specificity
+   than our earlier [data-theme="dark"] .post-title rule, so we must match the same selector ladder */
+[data-theme="dark"] .post-single .post-title { color: var(--primary); }
+
+/* Patch 4: Quote card (line 685 hardcoded parchment + #c3a67f border, separate from .about-card) */
+[data-theme="dark"] .quote-card {
+  background: rgba(28, 18, 8, 0.45);
+  border-color: #5a4218;
+}
+[data-theme="dark"] .quote-card .card-corner { color: #7a5818; }
+
+/* Patch 5: About-card "了解更多" link (line 743 hardcoded #967357 mid-brown) */
+[data-theme="dark"] .about-link { color: var(--gold); }
+[data-theme="dark"] .about-link:hover { color: var(--gold-light); }
+
+/* Patch 6: Home .baroque-content-layer (wraps post grid + bottom + social).
+   Hardcoded rgba(255, 248, 230, 0.28) light parchment — make it match .posts-list-frame
+   so home article zone shares the same "paper" feel as Posts list page. */
+[data-theme="dark"] .baroque-content-layer {
+  background: rgba(40, 28, 12, 0.45);
+}
+
+/* Patch 7: Posts list pagination buttons (line 846 / 850 / 857 hardcoded light parchment
+   #f0e3d1 + brown #957c5b). Match the .browse-all-btn dark treatment. */
+[data-theme="dark"] .baroque-list-frame .pagination a {
+  background: rgba(40, 28, 12, 0.5);
+  color: var(--gold);
+}
+[data-theme="dark"] .baroque-list-frame .pagination a:hover {
+  background: rgba(60, 42, 18, 0.7);
+  color: var(--primary);
+}
+
 
