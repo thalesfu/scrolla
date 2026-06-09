@@ -16,7 +16,7 @@ cover: {image: "/images/posts/covers/borghese-sala-xviii-jupiter-antiope-paintin
 | ⭐⭐ 推荐 | 《虔诚妇女照料圣塞巴斯蒂安》 | 鲁斯蒂基诺 | 卡拉瓦乔派的烛光夜景与柔光肌肤 |
 | ⭐⭐ 推荐 | 《约瑟为囚徒解梦》 | 圭列里 | 马尔凯地区卡拉瓦乔派的叙事画 |
 
-![](Pasted_image_20260608161936.png)
+![](Pasted_image_20260608161936.webp)
 
 **展厅官网介绍页**：[Room 18 - Jupiter and Antiope Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-18-sala-di-giove-e-antiope/)
 
@@ -60,7 +60,7 @@ cover: {image: "/images/posts/covers/borghese-sala-xviii-jupiter-antiope-paintin
 
 - **位置**：朱庇特与安提俄佩厅天顶（第 18 室）
 
-![](Pasted_image_20260608131934.png)
+![](Pasted_image_20260608131934.webp)
 
 **内容（这是什么）**：天顶正中这幅画的是奥维德（Ovidio）笔下的神话一幕：主神朱庇特（Giove）化作一个萨堤尔（satiro，半人半羊的林野精灵），偷偷接近熟睡的山林仙女安提俄佩（Antiope）。整间厅因这幅天顶画得名。在神话里，朱庇特借萨堤尔之形与安提俄佩结合，后来她生下双子安菲翁与泽托斯——这是宙斯/朱庇特众多「变形求欢」故事中的一则。
 

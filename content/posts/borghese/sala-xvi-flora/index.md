@@ -79,7 +79,7 @@ cover: {image: "/images/posts/covers/borghese-sala-xvi-flora-painting.jpg", alt:
 
 - **位置**：花神厅天顶（第 16 室）
 
-![](Pasted_image_20260608131452.png)
+![](Pasted_image_20260608131452.webp)
 
 **内容（这是什么）**：天顶正中这幅画的是花神芙洛拉（Flora）——罗马神话里掌管花卉、春天与植物萌发的女神。整间厅就是因这幅画得名「花神厅」。
 

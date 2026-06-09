@@ -18,7 +18,7 @@ cover: {image: "/images/posts/covers/borghese-sala-xix-helen-paris-painting.jpg"
 | ⭐⭐⭐ 必看 | 天顶《海伦与帕里斯故事》 | 加文·汉密尔顿 | 中央帕里斯之死＋审判、献海伦等，房间命名由来 |
 | ⭐⭐ 推荐 | 《苏珊娜与长老》 | 彼得·保罗·鲁本斯 | 偷窥与抗拒的张力，鲁本斯式肉感 |
 
-![](Pasted_image_20260608162001.png)
+![](Pasted_image_20260608162001.webp)
 
 **展厅官网介绍页**：[海伦与帕里斯厅（第 19 室）｜博尔盖塞官方房间页](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-19-sala-di-elena-e-paride/)
 
@@ -110,9 +110,9 @@ cover: {image: "/images/posts/covers/borghese-sala-xix-helen-paris-painting.jpg"
 - **位置**：海伦与帕里斯厅（第 19 室）天顶
 - **时间**：1782–1784 年
 
-![](Pasted_image_20260608132208.png)
+![](Pasted_image_20260608132208.webp)
 
-![](Pasted_image_20260608132221.png)
+![](Pasted_image_20260608132221.webp)
 
 这间厅的名字就来自头顶这片天顶画——一进门务必抬头。它由苏格兰画家兼古物收藏家加文·汉密尔顿（Gavin Hamilton，1723–1798）于 1782–1784 年绘制，是 18 世纪末博尔盖塞别墅整体新古典主义改造中最成功的房间之一。
 
@@ -126,35 +126,35 @@ cover: {image: "/images/posts/covers/borghese-sala-xix-helen-paris-painting.jpg"
 
 婴儿帕里斯被带走或交给牧人，这是他早年被遗弃、后来在山野中长大的情节。
 
-![](Pasted_image_20260608132812.png)
+![](Pasted_image_20260608132812.webp)
 
-![](Pasted_image_20260608132847.png)
+![](Pasted_image_20260608132847.webp)
 
 ##### 《墨丘利带帕里斯前往裁判》 / _Mercury and Paris_
 
 墨丘利出现，引导牧羊人身份的帕里斯去进行“三女神之争”的裁判。
 
-![](Pasted_image_20260608132616.png)
+![](Pasted_image_20260608132616.webp)
 
 ##### 《帕里斯的审判》/ _The Judgment of Paris_
 
 全套最关键的一幕，也是这间"美之评判"厅的题眼：帕里斯被指定裁断"谁最美"，他把金苹果判给了维纳斯（而非朱诺或密涅瓦），换取人间最美的女子海伦——这一判直接点燃了特洛伊战争。
 
-![](Pasted_image_20260608132736.png)
+![](Pasted_image_20260608132736.webp)
 
-![](Pasted_image_20260608132748.png)
+![](Pasted_image_20260608132748.webp)
 
 ##### 《帕里斯与海伦》 / _Paris and Helen_
  
  帕里斯把海伦带离斯巴达、载回特洛伊的一幕。注意：汉密尔顿的原作已于 1891 年移往博尔盖塞家族城堡（今藏罗马博物馆 Museo di Roma），现挂的是卡穆奇尼（Vincenzo Camuccini）画的替换版。
 
-![](Pasted_image_20260608132554.png)
+![](Pasted_image_20260608132554.webp)
 
 ##### 中央《帕里斯之死》/ _Death of Paris_
 
 全顶的核心，画特洛伊王子帕里斯在萨堤尔（satyr）与仙女之间死去（他在特洛伊战争尾声中被毒箭射伤而亡）。它占天顶正中、画幅最大，是整组叙事的收束。
 
-![](Pasted_image_20260608132337.png)
+![](Pasted_image_20260608132337.webp)
 
 天顶四周的装饰性图案（框格、卷草等）由马尔凯蒂（Giovan Battista Marchetti）绘制。
 

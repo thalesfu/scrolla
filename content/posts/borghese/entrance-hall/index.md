@@ -49,7 +49,7 @@ cover: {image: "/images/posts/covers/borghese-entrance-hall-painting.jpg", alt: 
 - **时间**：1775–1779 年
 - **位置**：入口大厅天顶
 
-![](Pasted_image_20260604164050.png)
+![](Pasted_image_20260604164050.webp)
 
 **这是什么**：占满整个入口大厅拱顶的巨型湿壁画（fresco），1775–1779 年由西西里画家马里亚诺·罗西绘制，这间厅因此直接以他命名为 Salone di Mariano Rossi（罗西大厅）。这是他公认的代表作，也是罗马 18 世纪最后一批大型幻觉天顶画的压卷之作。
 

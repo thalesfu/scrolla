@@ -17,7 +17,7 @@ cover: {image: "/images/posts/covers/borghese-sala-xiv-lanfranco-painting.jpg", 
 | ⭐⭐ 推荐 | 《音乐会（护身符被盗）》 | 赫里特·范·洪特霍斯特 | 卡拉瓦乔派的烛光夜景与窃贼细节 |
 | ⭐⭐ 推荐 | 天顶《诸神会议》 | 乔瓦尼·兰弗兰科 | 别墅 17 世纪原装饰的「活化石」，为敞廊而画 |
 
-![](Pasted_image_20260608161830.png)
+![](Pasted_image_20260608161830.webp)
 
 **展厅官网介绍页**：[Room 14 - Lanfranco Loggia](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-14-loggia-di-lanfranco/)
 
@@ -107,9 +107,9 @@ cover: {image: "/images/posts/covers/borghese-sala-xiv-lanfranco-painting.jpg", 
 - **时间**：1624–1625 年
 - **官网介绍页**：[Room 14 - Lanfranco Loggia｜Galleria Borghese 房间页](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-14-loggia-di-lanfranco/)
 
-![](Pasted_image_20260608131249.png)
+![](Pasted_image_20260608131249.webp)
 
-![](Pasted_image_20260608131324.png)
+![](Pasted_image_20260608131324.webp)
 
 **这是什么**：占满拱顶的湿壁画《诸神会议》，画奥林匹斯众神聚会议事——朱庇特、维纳斯、马尔斯、墨丘利、阿波罗等悉数登场，云间罗列。本厅就以画家兰弗兰科（Giovanni Lanfranco，1582–1647）命名。
 

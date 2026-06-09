@@ -16,7 +16,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 | ⭐⭐⭐ 必看 | 天顶《维纳斯与埃涅阿斯的故事》（五联组画） | 德·安杰利斯 | 与雕像呼应的「爱与史诗」连环天顶 |
 | ⭐⭐⭐ 必看 | 《巴克斯赫尔墨柱像》 | 路易吉·瓦拉迪耶 | 多彩材质炫技的赫尔墨柱，新古典精工陈设 |
 
-![](Pasted_image_20260608155713.png)
+![](Pasted_image_20260608155713.webp)
 
 **展厅官网介绍页**：[Room 1 - Paolina Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-1-sala-della-paolina/)
 
@@ -34,7 +34,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 
 ![](Galleria_Borghese_G01_LIV_canova-paolina-borghese-venere-vincitrice.jpg)
 
-![](Pasted_image_20260603131943.png)
+![](Pasted_image_20260603131943.webp)
 
 **这是什么**：Sala I 的绝对主角，也是新古典主义雕塑里最有名的作品之一。卡诺瓦（Antonio Canova）把拿破仑的妹妹保利娜·波拿巴·博尔盖塞（Pauline Bonaparte）塑成半卧的「胜利维纳斯」（Venus Victrix）：她斜倚帝政式长榻、上身半裸，左手托一只金苹果。金苹果是帕里斯（Paris）审判判给「最美者」的奖品——把它交到保利娜手上，等于公开宣告：她就是当世第一美人。
 
@@ -65,7 +65,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 - **时间**：1779 年
 - **位置**：保利娜厅天顶
 
-![](Pasted_image_20260604172957.png)
+![](Pasted_image_20260604172957.webp)
 
 **这是什么**：整面拱顶是一组由五幅画组成的天顶画，主题是维纳斯（Venus）与埃涅阿斯（Aeneas）的故事，由新古典主义画家多梅尼科·德·安杰利斯（Domenico de Angelis，1735–1804）于 1779 年绘成。五幅画「一主四辅」：正中央是画幅最大的《帕里斯的审判》，四周环绕四幅情节画。画与画之间那套以假乱真的描金建筑框架（quadratura 错视）出自另一位专画建筑透视的画师乔万尼·巴蒂斯塔·马尔凯蒂（Giovanni Battista Marchetti，1730–1800）之手——抬头看到的「立体边框、檐口、浮雕」，其实大多是平面画出来的幻觉。
 
@@ -88,7 +88,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 - **时间**：1779 年
 - **位置**：天顶中央画
 
-![](Pasted_image_20260604175355.png)
+![](Pasted_image_20260604175355.webp)
 
 **这是什么**：天顶正中、画幅最大的一幅，也是理解整间 Sala I 的钥匙。故事起于一场婚宴：不和女神厄里斯（Eris）抛下一只刻着「给最美者」的金苹果，朱诺（Juno）、密涅瓦（Minerva）、维纳斯（Venus）三位女神争执不下，宙斯命特洛伊王子、当时在伊达山牧羊的帕里斯（Paris）来裁断。三女神各开价码贿赂他：朱诺许以王权、密涅瓦许以智慧武功、维纳斯许以天下第一美人海伦（Helen）。帕里斯把金苹果判给维纳斯——也因此招来朱诺、密涅瓦两位落选女神对特洛伊的刻骨怨恨，并因抢走已婚的海伦点燃十年特洛伊战争，最终毁灭特洛伊。这一判，正是天顶四幅辅画乃至整部《埃涅阿斯纪》的总开关。
 
@@ -110,7 +110,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 - **时间**：1779 年
 - **位置**：天顶侧面画之一
 
-![](Pasted_image_20260604175547.png)
+![](Pasted_image_20260604175547.webp)
 
 **这是什么**：帕里斯（Paris）审判落选后，被冒犯的智慧与战争女神密涅瓦（Minerva）出手报复：她请求命运三女神中专司「终结」的阿特洛波斯（Atropos）剪断特洛伊（Troy）的生命之线。希腊神话里，命运三女神（Moirai）一个纺线、一个量线、阿特洛波斯持剪刀断线——线一断，人或城的寿数即尽。这幅画把「特洛伊将亡」这件抽象国运，落实成「一根线被剪断」的可视瞬间。
 
@@ -125,7 +125,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 - **时间**：1779 年
 - **位置**：天顶侧面画之一
 
-![](Pasted_image_20260604180021.png)
+![](Pasted_image_20260604180021.webp)
 
 **这是什么**：维纳斯（Venus）在这里从「赢得金苹果的最美女神」转成「护子心切的母亲」。她的凡间儿子埃涅阿斯（Aeneas）是特洛伊将领，眼看特洛伊将亡，维纳斯上奥林匹斯向众神之王朱庇特（Jupiter）求情，请他保住埃涅阿斯一脉——正是这条血脉日后辗转到意大利、成为罗马（及尤利乌斯家族）的祖先。
 
@@ -140,7 +140,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 - **时间**：1779 年
 - **位置**：天顶侧面画之一
 
-![](Pasted_image_20260604180057.png)
+![](Pasted_image_20260604180057.webp)
 
 **这是什么**：埃涅阿斯神话里最有名、流传最广的一幕——特洛伊城破火起，埃涅阿斯（Aeneas）背起年迈的父亲安喀塞斯（Anchises）、牵着年幼的儿子阿斯卡尼俄斯（Ascanius）逃出火海。这「三代同逃」浓缩了罗马人最看重的德性 pietas（对父祖、神明、家国的虔敬责任）：老父抱着家族守护神像、幼子接续香火，埃涅阿斯一肩扛起过去与未来。
 
@@ -162,7 +162,7 @@ cover: {image: "/images/posts/covers/borghese-sala-i-paolina-painting.jpg", alt:
 - **时间**：1779 年
 - **位置**：天顶侧面画之一
 
-![](Pasted_image_20260604175956.png)
+![](Pasted_image_20260604175956.webp)
 
 **这是什么**：天后朱诺（Juno）——帕里斯审判的另一位落选者——对特洛伊及其遗民的怨恨延续到战后。她请风神埃俄罗斯（Aeolus）放出狂风暴雨，去摧毁埃涅阿斯（Aeneas）渡海的船队。这正是维吉尔《埃涅阿斯纪》开篇第一幕：埃涅阿斯刚出特洛伊就遭海上风暴，被迫漂流到迦太基。
 

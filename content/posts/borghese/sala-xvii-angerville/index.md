@@ -22,9 +22,9 @@ cover: {image: "/images/posts/covers/borghese-sala-xvii-angerville-painting.jpg"
 
 - **位置**：昂热伯爵厅天顶（第 17 室）
 
-![](Pasted_image_20260608131719.png)
+![](Pasted_image_20260608131719.webp)
 
-![](Pasted_image_20260608131821.png)
+![](Pasted_image_20260608131821.webp)
 
 **内容（这是什么）**：天顶主画讲的是一个「沉冤得雪、身份被认出」的故事。题材出自薄伽丘（Boccaccio）《十日谈》（_Decameron_）第二日第八个故事：昂热伯爵戈蒂耶（Gaultier，意大利文作 Gualtieri）遭诬陷而流亡，隐姓埋名、沦落多年，最终真相大白、身份与荣誉被重新认出。画家选的正是「被认出」的高潮一刻。整间小厅因这幅天顶画而得名「昂热伯爵厅」。
 

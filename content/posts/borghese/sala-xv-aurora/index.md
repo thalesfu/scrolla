@@ -111,7 +111,7 @@ cover: {image: "/images/posts/covers/borghese-sala-xv-aurora-painting.jpg", alt:
 
 - **位置**：黎明女神厅（第 15 室）天顶
 
-![](Pasted_image_20260608131609.png)
+![](Pasted_image_20260608131609.webp)
 
 **内容（这是什么）**：整面天顶是多梅尼科·科尔维（Domenico Corvi，1721–1803）1782 年所作，中央三幅画分别表现黎明女神奥罗拉（Aurora）以及"破晓"与"黄昏"两段晨昏暮光的寓意，本厅"黎明女神厅"即由此得名。
 
@@ -125,19 +125,19 @@ cover: {image: "/images/posts/covers/borghese-sala-xv-aurora-painting.jpg", alt:
 
 天顶正中的主画，黎明女神奥罗拉（Aurora，罗马司晨女神）散花、驾临，宣告一天之始；本厅得名即源于她。
 
-![](Pasted_image_20260608211131.png)
+![](Pasted_image_20260608211131.webp)
 
 ##### **《破晓》/ _Dawn
 
 中央一侧，拟人化的"破晓"暮光，表现夜与昼之间、天色将明的一刻。
 
-![](Pasted_image_20260608211153.png)
+![](Pasted_image_20260608211153.webp)
 
 ##### **《黄昏》/ _Dusk_**
 
 中央另一侧，拟人化的"黄昏"暮光，与"破晓"相对，表现昼向夜过渡的一刻。三幅连起来就是"一天之始与昼夜交替"的寓意主轴。
 
-![](Pasted_image_20260608211213.png)
+![](Pasted_image_20260608211213.webp)
 
 四周隔间装饰（马尔凯蒂）：
 

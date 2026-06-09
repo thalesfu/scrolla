@@ -24,7 +24,7 @@ cover: {image: "/images/posts/covers/borghese-overview-painting.jpg", alt: "博�
 >
 > 14:00 入场后建议参观顺序：**Salone Mariano Rossi（入口大厅）→ Sala I（保利娜）→ II（大卫）→ III（阿波罗与达芙妮）→ IV（凯撒厅）→ V（双性人）→ VI（埃涅阿斯）→ VII（埃及）→ VIII（卡拉瓦乔）→ 上楼 Pinacoteca**——参考各厅文件。
 
-![](Pasted_image_20260604132054.png)
+![](Pasted_image_20260604132054.webp)
 ### 各厅速查索引
 
 #### 一层（雕塑层，约 50 件）

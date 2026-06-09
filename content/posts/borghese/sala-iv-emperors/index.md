@@ -15,7 +15,7 @@ cover: {image: "/images/posts/covers/borghese-sala-iv-emperors-painting.jpg", al
 | ⭐⭐⭐ 必看 | 《普洛塞庇娜被劫》 | 吉安·洛伦佐·贝尼尼 | 「手指陷进大理石」的名场面，绕看抢夺动势 |
 | ⭐⭐ 推荐 | 天顶《伽拉忒亚故事》（含《伽拉忒亚的胜利》） | 德·安杰利斯 | 海中仙女驾贝车的胜利，与四壁帝王相映 |
 
-![](Pasted_image_20260608155814.png)
+![](Pasted_image_20260608155814.webp)
 
 **展厅官网介绍页**：[Room 4 - Room of the Emperors](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-4-sala-degli-imperatori/)
 
@@ -61,7 +61,7 @@ cover: {image: "/images/posts/covers/borghese-sala-iv-emperors-painting.jpg", al
 - **时间**：1778–1780 年
 - **位置**：皇帝厅天顶
 
-![](Pasted_image_20260607212628.png)
+![](Pasted_image_20260607212628.webp)
 
 **内容（这是什么）**：占据皇帝厅整片天顶的大型组画，主题不是常被误传的"罗马诸神聚会"，而是取自奥维德《变形记》的海中仙女伽拉忒亚（Galatea）故事，由画家多梅尼科·德·安杰利斯（Domenico de Angelis）于 1778–1780 年绘制。
 
@@ -76,7 +76,7 @@ cover: {image: "/images/posts/covers/borghese-sala-iv-emperors-painting.jpg", al
 - **时间**：1778–1780 年
 - **位置**：天顶中央画
 
-![](Pasted_image_20260607222347.png)
+![](Pasted_image_20260607222347.webp)
 **内容（这是什么）**：天顶正中的主画。伽拉忒亚（Galatea）是海神涅柔斯（Nereus）的女儿，被独眼巨人波吕斐摩斯（Polyphemus）苦苦爱慕，自己却爱着英俊牧人阿喀斯（Acis）。
 
 **背景 / 看点**：馆方说明特意点出人物方位——波吕斐摩斯在画面左侧、阿喀斯在右侧。现场站在厅中央抬头，认准这片最大最亮的场景，它是整个天顶叙事的核心。
@@ -88,7 +88,7 @@ cover: {image: "/images/posts/covers/borghese-sala-iv-emperors-painting.jpg", al
 - **时间**：1778–1780 年
 - **位置**：天顶侧面椭圆画之一
 
-![](Pasted_image_20260607221445.png)
+![](Pasted_image_20260607221445.webp)
 
 **内容 / 看点**：四角侧画之一，画波吕斐摩斯（Polyphemus）因嫉妒向情敌阿喀斯（Acis）投掷巨石。它是中央伽拉忒亚故事的悲剧转折——爱慕化为暴力。与对侧的《伽拉忒亚告别阿喀斯》连看，故事更完整。
 
@@ -99,7 +99,7 @@ cover: {image: "/images/posts/covers/borghese-sala-iv-emperors-painting.jpg", al
 - **时间**：1778–1780 年
 - **位置**：天顶侧面椭圆画之一
 
-![](Pasted_image_20260607212907.png)
+![](Pasted_image_20260607212907.webp)
 
 **内容 / 看点**：另一幅侧面椭圆画，伽拉忒亚（Galatea）向阿喀斯（Acis）诀别。按神话，阿喀斯被巨石砸死后化为一条溪流。把这两幅侧画与中央《伽拉忒亚的胜利》串起来，"爱—嫉妒—死亡—化为流水"的整条线就连上了。
 

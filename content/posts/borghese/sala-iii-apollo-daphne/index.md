@@ -15,7 +15,7 @@ cover: {image: "/images/posts/covers/borghese-sala-iii-apollo-daphne-painting.jp
 | ⭐⭐⭐ 必看 | 《阿波罗与达芙妮》 | 吉安·洛伦佐·贝尼尼 | 指尖生叶、足下生根的「变形定格」，绕看最佳 |
 | ⭐⭐ 推荐 | 天顶《阿波罗与达芙妮厅天顶》 | 安杰莱蒂 & 马尔凯蒂 | 与雕像同题的天顶装饰，抬头呼应同一神话 |
 
-![](Pasted_image_20260608155602.png)
+![](Pasted_image_20260608155602.webp)
 
 **展厅官网介绍页**：[Room 3 - Apollo and Daphne Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-3-sala-di-apollo-e-dafne/)
 
@@ -33,9 +33,9 @@ cover: {image: "/images/posts/covers/borghese-sala-iii-apollo-daphne-painting.jp
 
 ![](Galleria_Borghese_G03_CV_bernini-apollo-daphne.jpg)
 
-![](Pasted_image_20260603194928.png)
+![](Pasted_image_20260603194928.webp)
 
-![](Pasted_image_20260603204400.png)
+![](Pasted_image_20260603204400.webp)
 
 **这是什么**：Sala III 的绝对主角，贝尼尼（Gian Lorenzo Bernini）二十几岁为红衣主教希皮奥内·博尔盖塞（Scipione Borghese）所作（1622–1625，酬金 1000 斯库多）。题材出自奥维德《变形记》：丘比特（Cupid）用金箭射中阿波罗（Apollo）使他爱上仙女达芙妮（Daphne），又用铅箭射中达芙妮使她抗拒；阿波罗追上她的一刻，她求父亲河神珀纽斯（Peneus）改变形体，于是开始变成月桂树。贝尼尼抓住的正是**人变树的临界一秒**：阿波罗左手刚触到她身体，她脚下已生根、手指与头发正抽成月桂枝叶。雕这件期间他还中断近一年去做了《大卫》。
 
@@ -64,9 +64,9 @@ cover: {image: "/images/posts/covers/borghese-sala-iii-apollo-daphne-painting.jp
 - **时间**：1780–1785 房间装饰期
 - **位置**：Sala III 天顶
 
-![](Pasted_image_20260607195319.png)
+![](Pasted_image_20260607195319.webp)
 
-![](Pasted_image_20260608154047.png)
+![](Pasted_image_20260608154047.webp)
 
 **这是什么**：抬头看到的不是好几件独立作品，而是一整面为呼应脚下贝尼尼《阿波罗与达芙妮》而设计的天顶——18 世纪末由阿斯普鲁奇（Antonio Asprucci）统一规划，把下方那定格的一秒「人变树」铺展成完整的神话叙事。它由三层叠成：中央一幅彩色故事画、四周单色的四季寓意、再加一整套用绘画假造出来的建筑框架。
 

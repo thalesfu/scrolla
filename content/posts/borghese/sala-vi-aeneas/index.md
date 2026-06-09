@@ -16,7 +16,7 @@ cover: {image: "/images/posts/covers/borghese-sala-vi-aeneas-painting.jpg", alt:
 | ⭐⭐⭐ 必看 | 《真理（时间揭示的真理）》 | 吉安·洛伦佐·贝尼尼 | 贝尼尼晚年自辩之作，未完成的寓言裸像 |
 | ⭐⭐ 推荐 | 天顶《诸神会议》 | 洛朗·佩舍 | 诸神为特洛伊战争「表决」，与地面逃亡呼应 |
 
-![](Pasted_image_20260608160824.png)
+![](Pasted_image_20260608160824.webp)
 
 **展厅官网介绍页**：[Room 6 - Aeneas and Anchises Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-6-sala-del-gladiatore/)
 
@@ -91,7 +91,7 @@ cover: {image: "/images/posts/covers/borghese-sala-vi-aeneas-painting.jpg", alt:
 - **时间**：1777–1783 年（平乔别墅新古典改造期）
 - **位置**：埃涅阿斯与安喀塞斯厅天顶（第 6 室，旧称「角斗士厅」）
 
-![](Pasted_image_20260607222518.png)
+![](Pasted_image_20260607222518.webp)
 
 **内容（这是什么）**：占满本厅拱顶的大型天顶画，画的是奥林匹斯诸神为特洛伊战争开「会」。题材出自荷马（Homer）史诗传统：特洛伊战争打到关键处，众神在主神朱庇特（Jupiter）主持下分成两派——一派（如朱诺、密涅瓦）护希腊人，一派（如维纳斯、阿波罗、马尔斯）护特洛伊人——为是否、如何干预战局争执不下，最后由居中的朱庇特裁断。换句话说，这场仗在凡间打、在天上也打，画的就是诸神在云端为人间战争「投票表决」的一幕。
 

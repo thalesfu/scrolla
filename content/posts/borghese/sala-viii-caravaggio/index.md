@@ -19,7 +19,7 @@ cover: {image: "/images/posts/covers/borghese-sala-viii-caravaggio-painting.jpg"
 | ⭐⭐⭐ 必看 | 《扮作巴克斯的自画像（病中的巴克斯）》 | 卡拉瓦乔 | 病容的酒神自画像，青涩而大胆的早年自塑 |
 | ⭐⭐⭐ 必看 | 《施洗者圣约翰》 | 卡拉瓦乔 | 半裸少年与公羊，暧昧而新颖的圣像处理 |
 
-![](Pasted_image_20260608160918.png)
+![](Pasted_image_20260608160918.webp)
 
 **展厅官网介绍页**：[西勒诺斯厅（第 8 室）｜Galleria Borghese 房间页](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-8-sala-del-sileno/)
 
@@ -206,9 +206,9 @@ cover: {image: "/images/posts/covers/borghese-sala-viii-caravaggio-painting.jpg"
 - **位置**：卡拉瓦乔厅天顶中央（第 8 室，又名「西勒诺斯厅」）
 - **官网介绍页**：[第 8 室·西勒诺斯厅｜Galleria Borghese 房间页](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-8-sala-del-sileno/)
 
-![](Pasted_image_20260608130601.png)
+![](Pasted_image_20260608130601.webp)
 
-![](Pasted_image_20260608125132.png)
+![](Pasted_image_20260608125132.webp)
 
 **内容（这是什么）**：天顶中央这幅画的是众人向西勒诺斯（Sileno / Silenus）献祭的场面。西勒诺斯是酒神巴克斯（Bacco / Bacchus）的老师与养父——一个总是醉醺醺、大腹便便、骑驴需人搀扶的胖老头，是酒神随从队伍里「喜剧角色」与「醉中吐真言的智慧老者」的混合体。画面是一群萨堤尔与酒神信徒围着他奉酒、献祭、欢闹，是一派酒神世界的丰饶与狂欢。本厅得名「西勒诺斯厅」正源于这套天顶主题。
 

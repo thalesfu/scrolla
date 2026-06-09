@@ -19,7 +19,7 @@ cover: {image: "/images/posts/covers/borghese-sala-ix-dido-painting.jpg", alt: "
 | ⭐⭐ 推荐 | 《圣母子、幼年圣约翰与天使》 | 波提切利及工坊 | 佛罗伦萨家用圆形虔敬画的优雅样本 |
 | ⭐⭐ 推荐 | 天顶《埃涅阿斯与狄多故事》（五联） | 安东·冯·马龙 | 把一则完整爱情悲剧画成五联连环天顶 |
 
-![](Pasted_image_20260608161212.png)
+![](Pasted_image_20260608161212.webp)
 
 **展厅官网介绍页**：[Room 9 - Dido Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-9-sala-di-didone/)
 
@@ -97,7 +97,7 @@ cover: {image: "/images/posts/covers/borghese-sala-ix-dido-painting.jpg", alt: "
 - **位置**：狄多厅天顶（第 9 室，旧称「美惠三女神厅」）
 - **官网介绍页**：[Room 9 - Dido Room｜Galleria Borghese 房间页](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-9-sala-di-didone/)
 
-![](Pasted_image_20260608130524.png)
+![](Pasted_image_20260608130524.webp)
 
 **内容（这是什么）**：这间厅得名于天顶——五幅一组的「埃涅阿斯与狄多故事」。故事取自维吉尔（Virgil）《埃涅阿斯纪》：特洛伊陷落后，英雄埃涅阿斯（Aeneas）流亡途中漂到北非迦太基，女王狄多（Dido）盛情接待并爱上了他；两人一度结合，但朱庇特派信使墨丘利（Mercury）下凡，命埃涅阿斯不可贪恋私情、必须继续西行去意大利建立罗马；埃涅阿斯忍痛起航，狄多在绝望中登上柴堆、伏剑自焚。这是整部史诗里最著名的爱情悲剧——「责任（建立罗马的天命）压倒爱情」的母题。
 
@@ -111,31 +111,31 @@ cover: {image: "/images/posts/covers/borghese-sala-ix-dido-painting.jpg", alt: "
 
 全组的核心与情感落点，画女王在埃涅阿斯离去后绝望自尽（登上柴堆、伏剑而死）。它占天顶正中、画幅最大，定下整组的悲剧基调。
 
-![](Pasted_image_20260608125509.png)
+![](Pasted_image_20260608125509.webp)
 
 ##### 《埃涅阿斯逃离特洛伊》/ _Aeneas Fleeing Troy_
 
 故事的「前情」：特洛伊陷落之夜，埃涅阿斯背父携子逃出火城，开始流亡。这一幕交代了他为何会漂到迦太基，是叙事链的起点。
 
-![](Pasted_image_20260608130017.png)
+![](Pasted_image_20260608130017.webp)
 
 ##### 《狄多接待埃涅阿斯与同伴阿卡特斯》/ _Dido Receiving Aeneas and Achates_
 
 「相遇」一幕：女王狄多在宫中接见流亡而来的埃涅阿斯及其忠实同伴阿卡特斯（Achates），两人的命运由此交织。
 
-![](Pasted_image_20260608125905.png)
+![](Pasted_image_20260608125905.webp)
 
 ##### 《迦太基宴会》/ _Dido's Banquet_
 
 「相爱」的高光：狄多设盛宴款待埃涅阿斯，席间听他讲述特洛伊的覆灭与流亡，渐生爱意。这是全剧最华美、最温情的一幕。
 
-![](Pasted_image_20260608125930.png)
+![](Pasted_image_20260608125930.webp)
 
 ##### 《墨丘利奉朱庇特命催促埃涅阿斯离开迦太基》/ _Mercury Exhorting Aeneas to Leave Carthage_
 
 「神令／转折」：朱庇特派信使墨丘利（Mercury）下凡，命埃涅阿斯不可贪恋私情、须继续西行建立罗马。正是这道神令逼他离开、酿成狄多之死——是悲剧的直接推手。
 
-![](Pasted_image_20260608125949.png)
+![](Pasted_image_20260608125949.webp)
 
 
 **现场站看**：

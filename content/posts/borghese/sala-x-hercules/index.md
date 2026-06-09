@@ -18,7 +18,7 @@ cover: {image: "/images/posts/covers/borghese-sala-x-hercules-painting.jpg", alt
 | ⭐⭐ 推荐 | 《吉普赛女郎》 | 尼古拉·科尔迪耶 | 深色大理石配青铜的「多材质炫技」雕像 |
 | ⭐⭐ 推荐 | 天顶《赫拉克勒斯功业片段》 | 克里斯托夫·翁特贝格尔 | 「劫妻→毒发→自焚→升天」的完整悲剧链 |
 
-![](Pasted_image_20260608161247.png)
+![](Pasted_image_20260608161247.webp)
 
 **展厅官网介绍页**：[Room 10 - Hercules Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-10-sala-di-ercole/)
 
@@ -100,7 +100,7 @@ cover: {image: "/images/posts/covers/borghese-sala-x-hercules-painting.jpg", alt
 - **位置**：赫拉克勒斯厅天顶（第 10 室）
 - **官网介绍页**：[Room 10 - Hercules Room｜Galleria Borghese 官方房间页](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-10-sala-di-ercole/)
 
-![](Pasted_image_20260608130309.png)
+![](Pasted_image_20260608130309.webp)
 
 
 **内容（这是什么）**：本厅天顶的组画画的是大力神赫拉克勒斯（Hercules，希腊名赫剌克勒斯 Heracles）的几段故事，整间厅也因此得名「赫拉克勒斯厅」。1784 年完成，由蒂罗尔画家克里斯托夫·翁特贝格尔（Christoph Unterberger）绘制。正中是《赫拉克勒斯神化升天》（英雄死后被接纳进奥林匹斯、列入神班），四周环绕几段情节：与河神阿刻罗俄斯（Achelous）搏斗争夺妻子、半人马涅索斯（Nessus）劫掠其妻得伊阿尼拉（Deianira）、赫拉克勒斯怒掷侍从利卡斯（Lichas），以及赫拉克勒斯之死。这几幕并非随意拼凑，而是一条有因果的悲剧链。
@@ -112,19 +112,19 @@ cover: {image: "/images/posts/covers/borghese-sala-x-hercules-painting.jpg", alt
 **逐幅分述（中央升天 + 四幕情节）**：
 
 1. **中央《赫拉克勒斯神化升天》/ _Apotheosis of Hercules_**——全顶的核心与终点，画英雄自焚后肉身焚尽、神性被诸神接上奥林匹斯、列入神班。它占天顶正中、最高最亮，是整组「因死成神」的结局。
-	![](Pasted_image_20260608130215.png)
+	![](Pasted_image_20260608130215.webp)
 
 2. **《与河神阿刻罗俄斯搏斗》/ _Hercules and Achelous_**——故事起点：赫拉克勒斯为娶得伊阿尼拉（Deianira），与同来求婚、能变形的河神阿刻罗俄斯（Achelous）角力并取胜，赢得了妻子。
-	![](Pasted_image_20260608130408.png)
+	![](Pasted_image_20260608130408.webp)
 
 3. **《半人马涅索斯劫掠得伊阿尼拉》/ _Nessus Abducting Deianira_**——埋下祸根的一幕：婚后渡河时，半人马涅索斯（Nessus）企图劫走得伊阿尼拉，被赫拉克勒斯一箭射死；涅索斯临死设局，骗她收集自己的「毒血」当作保爱情的灵药。这看似配角，其实是整个悲剧的种子。
-	![](Pasted_image_20260608130422.png)
+	![](Pasted_image_20260608130422.webp)
 
 4. **《赫拉克勒斯怒掷利卡斯》/ _Hercules Hurling Lichas_**——爆发的一幕：多年后得伊阿尼拉把浸了毒血的衣袍送给丈夫，毒发蚀骨；英雄痛极盛怒，把送衣报信的侍从利卡斯（Lichas）抡起掷向大海。这是全顶动势最强、最具张力的瞬间。
-	![](Pasted_image_20260608130438.png)
+	![](Pasted_image_20260608130438.webp)
 
 5. **《赫拉克勒斯之死》/ _Death of Hercules_**——悲剧落点：毒痛难忍的英雄登上柴堆自焚。它紧接中央的升天——肉身在此焚毁，神性在彼升天，一死一生正好衔接。
-	![](Pasted_image_20260608130452.png)
+	![](Pasted_image_20260608130452.webp)
 
 **现场站看**：
 

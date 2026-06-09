@@ -53,7 +53,7 @@ cover: {image: "/images/posts/covers/borghese-sala-vii-egyptian-painting.jpg", a
 - **位置**：埃及厅天顶中央（第 7 室）
 - **官网介绍页**：见本厅[房间介绍页](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-7-sala-egizia/)
 
-![](Pasted_image_20260607222730.png)
+![](Pasted_image_20260607222730.webp)
 
 **内容（这是什么）**：天顶正中这幅大画，主角是被拟人化的尼罗河（Nile）——一位斜倚的河神，身边围着一群幼童，外加大地母神库柏勒（Cybele）。那群幼童是古代艺术里著名的「尼罗河之子」图式：传说尼罗河每年泛滥能涨「十六肘」，古人就用十六个攀爬的小孩象征理想的丰水高度，丰沛的洪水带来沃土与收成，因此整幅画讲的其实是「尼罗河泛滥＝富饶」这一古埃及／古罗马都崇奉的主题。
 
@@ -67,7 +67,7 @@ cover: {image: "/images/posts/covers/borghese-sala-vii-egyptian-painting.jpg", a
 
 天顶圆心，斜倚的尼罗河神＋象征泛滥水位的「尼罗河之子」群童＋大地母神库柏勒（Cybele）；主题是「尼罗河泛滥＝富饶」。
 
-![](Pasted_image_20260608122138.png)
+![](Pasted_image_20260608122138.webp)
 
 #### 一圈「行星神」（马尔凯蒂的建筑错视框景里、孔卡所画的八位神祇，多对应「古典七曜」）：
 
@@ -75,49 +75,49 @@ cover: {image: "/images/posts/covers/borghese-sala-vii-egyptian-painting.jpg", a
 
 对应太阳，多以光芒头冠或驾日车的形象出现。
 
-![](Pasted_image_20260608122821.png)
+![](Pasted_image_20260608122821.webp)
 
 ##### 月神卢娜（Luna）
 
 对应月亮，标志是新月。
 
-![](Pasted_image_20260608122549.png)
+![](Pasted_image_20260608122549.webp)
 
 ##### 朱庇特（Jupiter）
 
 对应木星，标志是鹰与雷霆。
 
-![](Pasted_image_20260608122334.png)
+![](Pasted_image_20260608122334.webp)
 
 #####  萨图尔努斯（Saturn）
 
 对应土星，常作持镰的老者（时间／农神）。
 
-![](Pasted_image_20260608123352.png)
+![](Pasted_image_20260608123352.webp)
 
 ##### 马尔斯（Mars）
 
 对应火星，标志是盔甲与兵器（战神）。
 
-![](Pasted_image_20260608123314.png)
+![](Pasted_image_20260608123314.webp)
 
 ##### 维纳斯（Venus）
 
 对应金星，常伴小爱神（爱与美之神）。
 
-![](Pasted_image_20260608122606.png)
+![](Pasted_image_20260608122606.webp)
 
 ##### 墨丘利（Mercury）
 
 对应水星，标志是飞翼帽与节杖（caduceus）。
 
-![](Pasted_image_20260608122843.png)
+![](Pasted_image_20260608122843.webp)
 
 ##### 乌拉诺斯／狗头阿努比斯（Uranos / Anubis）
 
 这一位被画成狗头的阿努比斯，是全顶最明确的「埃及符号」，专门找出来；它把希腊罗马的行星诸神和埃及神祇拼到了一起。
 
-![](Pasted_image_20260608122237.png)
+![](Pasted_image_20260608122237.webp)
 
 紧贴线脚的叙事小画带：
 
