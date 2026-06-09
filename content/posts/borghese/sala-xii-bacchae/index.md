@@ -1,19 +1,19 @@
 ---
 title: "博尔盖塞美术馆 · 第 12 室 巴克坎特厅"
-date: 2026-06-09
+date: 2026-06-09T08:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
 ---
 
-**展厅官网介绍页**：[Room 12 - Room of the Bacchantes](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-12-sala-delle-baccanti/)
-
-**展厅简介**：第 12 室（巴克坎特厅／酒神女祭司厅）是一间以天顶得名的小型装饰厅，贾尼把从金宫、哈德良别墅临摹来的古罗马「怪诞纹」装饰搬上天花板；本厅无 ⭐⭐⭐ 必看，亮点即天顶。
+第 12 室（巴克坎特厅／酒神女祭司厅）是一间以天顶得名的小型装饰厅，贾尼把从金宫、哈德良别墅临摹来的古罗马「怪诞纹」装饰搬上天花板；本厅无 ⭐⭐⭐ 必看，亮点即天顶。
 
 **必看与核心展品（天顶画为主）**
 
 | 推荐 | 展品 | 作者 | 一句话看点 |
 |---|---|---|---|
 | ⭐⭐ 推荐 | 天顶《舞蹈的酒神女祭司》 | 费利切·贾尼 | 常春藤框里三女起舞，古罗马装饰语汇的再创作 |
+
+**展厅官网介绍页**：[Room 12 - Room of the Bacchantes](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-12-sala-delle-baccanti/)
 
 ## 天顶画
 

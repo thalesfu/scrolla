@@ -1,13 +1,11 @@
 ---
 title: "博尔盖塞美术馆 · 第 11 室 费拉拉绘画厅"
-date: 2026-06-09
+date: 2026-06-09T09:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
 ---
 
-**展厅官网介绍页**：[Room 11 - Room of Ferrarese Painting](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-11-sala-della-pittura-ferrarese/)
-
-**展厅简介**：第 11 室（费拉拉绘画厅）专陈 16 世纪费拉拉画派作品（奥尔托拉诺、加罗法洛等），是一间小巧的「地方画派」专题厅；天顶贝雷蒂尼绘特洛伊美少年伽倪墨得斯被掳上天的故事。
+第 11 室（费拉拉绘画厅）专陈 16 世纪费拉拉画派作品（奥尔托拉诺、加罗法洛等），是一间小巧的「地方画派」专题厅；天顶贝雷蒂尼绘特洛伊美少年伽倪墨得斯被掳上天的故事。
 
 **必看与核心展品（⭐⭐⭐ 必看 + 核心）**
 
@@ -16,6 +14,8 @@ draft: false
 | ⭐⭐⭐ 必看 | 《哀悼基督》 | 奥尔托拉诺 | 费拉拉画派的沉静哀恸，浓郁色彩与北方细节 |
 | ⭐⭐ 推荐 | 《圣母子》 | 加罗法洛 | 「费拉拉的拉斐尔」，温润优雅的圣母像 |
 | ⭐⭐ 推荐 | 天顶《伽倪墨得斯故事》 | 文琴佐·贝雷蒂尼 | 三分镜讲「凡间美少年被掳上天、封侍神」 |
+
+**展厅官网介绍页**：[Room 11 - Room of Ferrarese Painting](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-11-sala-della-pittura-ferrarese/)
 
 ## 核心展品
 

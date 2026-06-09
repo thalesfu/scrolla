@@ -105,15 +105,20 @@ def reorder_intro(body: str) -> str:
         flags=re.MULTILINE,
     )
 
-    if not (link_match and img_match and intro_match and table_match):
+    # 至少要识别出简介、表格、官网链接才重排；图可以缺
+    if not (link_match and intro_match and table_match):
         return body
 
     intro_para = intro_match.group(1).strip()
     table_block = table_match.group(0).strip()
-    img_line = img_match.group(0).strip()
     link_line = link_match.group(0).strip()
 
-    new_head = "\n\n".join([intro_para, table_block, img_line, link_line]) + "\n\n"
+    parts = [intro_para, table_block]
+    if img_match:
+        parts.append(img_match.group(0).strip())
+    parts.append(link_line)
+
+    new_head = "\n\n".join(parts) + "\n\n"
     return new_head + tail
 
 
@@ -172,7 +177,6 @@ def migrate_one(src_filename: str, slug: str, title: str, date: str) -> None:
     src = BORGHESE_SRC / src_filename
     if not src.exists():
         sys.exit(f"未找到源文件：{src}")
-
     target_dir = TARGET_BASE / slug
     target_dir.mkdir(parents=True, exist_ok=True)
 
@@ -217,8 +221,15 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.all:
-        for filename, slug, title in MANIFEST:
-            migrate_one(filename, slug, title, args.date)
+        # PaperMod 列表按日期倒序，所以越靠前的厅给越晚的时间戳
+        # manifest 共 22 篇：overview 在最上面（23:00），sala-xx 在最下面（02:00）
+        total = len(MANIFEST)
+        for idx, (filename, slug, title) in enumerate(MANIFEST):
+            offset_minutes = (total - 1 - idx) * 60
+            hour = offset_minutes // 60
+            minute = offset_minutes % 60
+            dated = f"{args.date}T{hour:02d}:{minute:02d}:00+08:00"
+            migrate_one(filename, slug, title, dated)
         return
 
     if not (args.slug and args.title):

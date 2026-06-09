@@ -1,19 +1,19 @@
 ---
 title: "博尔盖塞美术馆 · 第 17 室 昂热伯爵厅"
-date: 2026-06-09
+date: 2026-06-09T03:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
 ---
 
-**展厅官网介绍页**：[Room 17 - Count of Angers Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-17-sala-del-conte-di-angers/)
-
-**展厅简介**：第 17 室（昂热伯爵厅）是一间以天顶得名的小厅，卡德斯用近乎「前浪漫主义」的情感，画《十日谈》里昂热伯爵「沉冤得雪、身份被认出」的故事；本厅无 ⭐⭐⭐ 必看，亮点即天顶。
+第 17 室（昂热伯爵厅）是一间以天顶得名的小厅，卡德斯用近乎「前浪漫主义」的情感，画《十日谈》里昂热伯爵「沉冤得雪、身份被认出」的故事；本厅无 ⭐⭐⭐ 必看，亮点即天顶。
 
 **必看与核心展品（天顶画为主）**
 
 | 推荐 | 展品 | 作者 | 一句话看点 |
 |---|---|---|---|
 | ⭐⭐ 推荐 | 天顶《昂热伯爵戈蒂耶被认出》 | 朱塞佩·卡德斯 | 《十日谈》故事的相认高潮，带浪漫主义情绪 |
+
+**展厅官网介绍页**：[Room 17 - Count of Angers Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-17-sala-del-conte-di-angers/)
 
 ## 天顶画
 

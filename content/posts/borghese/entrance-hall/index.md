@@ -1,13 +1,11 @@
 ---
 title: "博尔盖塞美术馆 · 入口大厅"
-date: 2026-06-09
+date: 2026-06-09T20:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
 ---
 
-**展厅官网介绍页**：[Entrance Hall - Mariano Rossi Hall](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/ingresso-salone-di-mariano-rossi/)
-
-**展厅简介**：入口大厅（Salone di Mariano Rossi）原是别墅迎客的门厅，四壁与壁龛陈列古罗马雕塑、地面铺古代马赛克，头顶是马里亚诺·罗西满铺拱顶的巨幅天顶画——一进门就用「古罗马凯旋」的气势为整座馆定下基调。
+入口大厅（Salone di Mariano Rossi）原是别墅迎客的门厅，四壁与壁龛陈列古罗马雕塑、地面铺古代马赛克，头顶是马里亚诺·罗西满铺拱顶的巨幅天顶画——一进门就用「古罗马凯旋」的气势为整座馆定下基调。
 
 **必看与核心展品（⭐⭐⭐ 必看 + 核心）**
 
@@ -15,6 +13,8 @@ draft: false
 | ------ | ---------------- | --------------- | ----------------------- |
 | ⭐⭐⭐ 必看 | 《马尔库斯·库尔提乌斯投身裂隙》 | 古罗马艺术／归属彼得罗·贝尼尼 | 嵌墙的骑马跃渊像，全厅巴洛克动势的序曲     |
 | ⭐⭐⭐ 必看 | 天顶《罗慕路斯受迎进入奥林匹斯》 | 马里亚诺·罗西         | 整面「画穿屋顶」的错视巨制，全馆最震撼的天花板 |
+
+**展厅官网介绍页**：[Entrance Hall - Mariano Rossi Hall](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/ingresso-salone-di-mariano-rossi/)
 
 ## 核心展品
 
