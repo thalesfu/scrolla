@@ -25,6 +25,7 @@ import argparse
 import re
 import shutil
 import sys
+from datetime import datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -221,14 +222,15 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.all:
-        # PaperMod 列表按日期倒序，所以越靠前的厅给越晚的时间戳
-        # manifest 共 22 篇：overview 在最上面（23:00），sala-xx 在最下面（02:00）
+        # PaperMod 列表按日期倒序，越靠前的厅给越晚的时间戳。
+        # 用 base_date 的不同 (天 + 小时) 来排序，所有时间都落在过去，避免 buildFuture 截断。
+        base = datetime.fromisoformat(f"{args.date}T00:00:00")
         total = len(MANIFEST)
         for idx, (filename, slug, title) in enumerate(MANIFEST):
-            offset_minutes = (total - 1 - idx) * 60
-            hour = offset_minutes // 60
-            minute = offset_minutes % 60
-            dated = f"{args.date}T{hour:02d}:{minute:02d}:00+08:00"
+            # idx=0（overview）-> 最新；idx=total-1 -> 最早
+            offset_hours = total - 1 - idx
+            stamp = base + timedelta(hours=offset_hours - total)
+            dated = stamp.strftime("%Y-%m-%dT%H:%M:%S+08:00")
             migrate_one(filename, slug, title, dated)
         return
 
