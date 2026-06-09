@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 第 18 室 朱庇特与安提俄佩厅"
 date: 2026-06-08T04:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-sala-xviii-jupiter-antiope-painting.jpg", alt: "朱庇特与安提俄佩厅天顶画"}
 ---
 
 第 18 室（朱庇特与安提俄佩厅）由一间大屋隔成的三小厅之一，天顶加涅罗的《朱庇特与安提俄佩》在装上去前就作为独立画展出叫好；墙上有 17 世纪卡拉瓦乔派与圭列里的作品。本厅无 ⭐⭐⭐ 必看。

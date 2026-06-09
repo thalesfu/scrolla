@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 第 7 室 埃及厅"
 date: 2026-06-08T15:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-sala-vii-egyptian-painting.jpg", alt: "埃及厅《骑海豚的萨堤尔》"}
 ---
 
   **展厅官网介绍页**：[Room 7 - Egyptian Room](https://galleriaborghese.cultura.gov.it/en/il-museo/la-villa/sala-7-sala-egizia/)

@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 第 16 室 花神厅"
 date: 2026-06-08T06:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-sala-xvi-flora-painting.jpg", alt: "花神厅芙洛拉天顶"}
 ---
 
 第 16 室（花神厅）以德·安杰利斯的花神芙洛拉天顶得名，是 18 世纪末「房间叙事化」的样本；墙上挂 16 世纪样式主义的宗教画。本厅无 ⭐⭐⭐ 必看。

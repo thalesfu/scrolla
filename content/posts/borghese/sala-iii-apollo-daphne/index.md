@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 第 3 室 阿波罗与达芙妮厅"
 date: 2026-06-08T19:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-sala-iii-apollo-daphne-painting.jpg", alt: "贝尼尼《阿波罗与达芙妮》"}
 ---
 
 第 3 室专为贝尼尼的《阿波罗与达芙妮》而设，是全馆人气最高的雕塑之一——阿波罗追到达芙妮的一刹那，少女正化作月桂；天顶同绘这则「变形」神话，与雕像上下呼应。

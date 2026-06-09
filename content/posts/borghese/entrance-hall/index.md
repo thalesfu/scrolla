@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 入口大厅"
 date: 2026-06-08T22:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-entrance-hall-painting.jpg", alt: "博尔盖塞美术馆入口大厅天顶与古罗马装饰"}
 ---
 
 入口大厅（Salone di Mariano Rossi）原是别墅迎客的门厅，四壁与壁龛陈列古罗马雕塑、地面铺古代马赛克，头顶是马里亚诺·罗西满铺拱顶的巨幅天顶画——一进门就用「古罗马凯旋」的气势为整座馆定下基调。

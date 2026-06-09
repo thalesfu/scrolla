@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 第 17 室 昂热伯爵厅"
 date: 2026-06-08T05:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-sala-xvii-angerville-painting.jpg", alt: "昂热伯爵厅天顶故事画"}
 ---
 
 第 17 室（昂热伯爵厅）是一间以天顶得名的小厅，卡德斯用近乎「前浪漫主义」的情感，画《十日谈》里昂热伯爵「沉冤得雪、身份被认出」的故事；本厅无 ⭐⭐⭐ 必看，亮点即天顶。

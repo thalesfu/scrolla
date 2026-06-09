@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 第 4 室 凯撒厅"
 date: 2026-06-08T18:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-sala-iv-emperors-painting.jpg", alt: "贝尼尼《普洛塞庇娜被劫》"}
 ---
 
 第 4 室（皇帝厅）四壁列十七位古罗马皇帝的彩色斑岩胸像，正中是贝尼尼的《普洛塞庇娜被劫》——巴洛克雕塑的巅峰之一，冥王的手指陷进少女的大腿；天顶绘《伽拉忒亚的胜利》。

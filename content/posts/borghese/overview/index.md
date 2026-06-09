@@ -3,6 +3,7 @@ title: "博尔盖塞美术馆 · 总览与必看 TOP 10"
 date: 2026-06-08T23:00:00+08:00
 tags: ["博尔盖塞美术馆", "意大利", "罗马", "艺术"]
 draft: false
+cover: {image: "/images/posts/covers/borghese-overview-painting.jpg", alt: "博尔盖塞美术馆馆藏总览头图"}
 ---
 
 **一句话**：博尔盖塞美术馆（Galleria Borghese）是罗马一座由 17 世纪红衣主教的私人别墅改成的国家美术馆，以"小而精"著称——尤其是全世界最密集的贝尼尼雕塑，加上卡拉瓦乔、提香、拉斐尔、卡诺瓦等顶级名作，被公认为罗马最值得看的博物馆之一。
