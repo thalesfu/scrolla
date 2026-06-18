@@ -143,11 +143,3 @@ cover: {image: "/images/posts/covers/vatican-v02-muses-rotunda-greek-cross-paint
 
 - 这几间在去拉斐尔房间/西斯廷的主动线上顺次经过，**节奏跟裴导**（见 2026-06-30 周二 罗马 D3 详情）。
 - 优先级：**缪斯厅的躯干 > 圆形厅斑岩盆 > 希腊十字厅石棺**；都属"路过认一认"级别，别在这里耗掉看西斯廷的时间。
-
-### 配图
-
-- 圆形厅 / 斑岩盆 / 石棺：见 [Wikipedia · Museo Pio-Clementino](https://en.wikipedia.org/wiki/Museo_Pio-Clementino) 内嵌图
-
----
-
-← 返回 2026-06-30 周二 罗马 D3 详情 · 上一段：[V - 01 入口与松果院 + 八角庭院（拉奥孔 + 观景楼阿波罗）](../v01-pinecone-octagonal/) · 下一段：[V - 03 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）](../v03-three-galleries/) · 总览：[00 总览](../overview/)

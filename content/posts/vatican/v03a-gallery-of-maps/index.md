@@ -376,12 +376,3 @@ cover: {image: "/images/posts/covers/vatican-v03a-gallery-of-maps-painting.jpg",
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AAvenionensis_ditio_et_Venaisinus_comitatus_-_Galleria_delle_carte_geografiche_-FG1.jpg)*
 
 全廊**唯一一幅不在意大利的地图**——法国南部的**阿维尼翁城与韦内森伯爵领**（罗讷河畔）。为什么画它？因为 1309–1377 年教廷曾迁居阿维尼翁（"阿维尼翁之囚"），此地直到 1791 年都是教皇的飞地。把这块海外领土也挂上墙，正点出整条廊的真正主题：**这画的不是"意大利"，是"教皇的领土版图"**。
-
----
-
-### 图源与版权说明
-
-- 全部 40 幅均取自 **Wikimedia Commons 公有领域**（壁画 1583 年完成，原作已过版权期；多数为 Sailko 等用户的 `-FG` 全墙高清扫描）。下载为 2000px 适配图存于本区 `attachments/`，每幅源链已附在图下。
-- 个别幅（利古里亚、远卡拉布里亚、科西嘉、帕尔马、费拉拉、安科纳、曼托瓦、近卡拉布里亚、翁布里亚、两张总图）官网与 Commons 没有理想的"正面全墙"扫描，已挑选**能完整识别该地区/能看清墙楣拉丁名**的最佳现存图替代，识别无误。
-- 厄尔巴（Ilva）面板缺岛屿全图，暂用同区段的奥斯提亚古港复原图示意，已在该条注明。
-- 官方介绍只有地图廊整体页（无单幅子页），故各幅未附"官方介绍页"链接，统一以 Commons 文件页为准。

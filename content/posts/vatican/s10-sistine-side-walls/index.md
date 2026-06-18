@@ -400,4 +400,3 @@ cover: {image: "/images/posts/covers/vatican-s10-sistine-side-walls-painting.jpg
 
 - 严禁拍照摄像、保持安静；着装遮肩盖膝。
 - 祭坛墙前常最拥挤，**往两侧或中段退一点反而看得全**。
-

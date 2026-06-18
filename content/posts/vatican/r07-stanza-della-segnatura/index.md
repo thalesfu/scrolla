@@ -891,4 +891,3 @@ cover: {image: "/images/posts/covers/vatican-r07-stanza-della-segnatura-painting
 #### 门：大象"安诺内"
 
 房门门板（一般认为出自乌迪内的乔瓦尼 Giovanni da Udine 之手，晚些年补画）上画着大象**安诺内（Annone/Hanno）**——葡萄牙国王 1514 年送给利奥十世的白象，轰动罗马的"顶流动物"，教皇宠爱有加，象死后还亲撰墓志。看完满屋哲学家，回头在门上找一头大象——这间屋子最后留给你的是个微笑。
-
