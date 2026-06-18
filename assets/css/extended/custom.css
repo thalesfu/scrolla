@@ -1114,11 +1114,28 @@ details.toc summary:hover { color: #967357; }
 .toc ul { color: #655648; font-size: 0.88rem; }
 
 /* 正文内子标题颜色和字号 */
-.post-content h2 { color: #5e4c3c; font-size: 2.0rem; }
-.post-content h3 { color: #6b5544; font-size: 1.7rem; }
-.post-content h4 { color: #7a6050; font-size: 1.5rem; }
+.post-content h2 { color: #6b1a1a; font-size: 2.0rem; }
+.post-content h3 { color: #8a3520; font-size: 1.7rem; }
+.post-content h4 { color: #8c6018; font-size: 1.5rem; }
 .post-content h5,
-.post-content h6 { color: #806d55; font-size: 1.35rem; }
+.post-content h6 { color: #6b4020; font-size: 1.35rem; }
+
+/* 正文内强调：strong 与 h2 同色（酒红），em 与 h4 同色（古铜金） */
+.post-content strong,
+.post-content b { color: #6b1a1a; }
+.post-content em,
+.post-content i { color: #8c6018; font-style: italic; }
+/* h2/h3 内的 strong 已经是同色酒红，颜色继承父元素，避免双重强调时颜色"卡顿" */
+.post-content h2 strong,
+.post-content h2 b,
+.post-content h3 strong,
+.post-content h3 b,
+.post-content h4 strong,
+.post-content h4 b,
+.post-content h5 strong,
+.post-content h5 b,
+.post-content h6 strong,
+.post-content h6 b { color: inherit; }
 
 /* 列表颜色与字号和正文保持一致 */
 .post-content ul,
@@ -1346,11 +1363,15 @@ details.toc summary:hover { color: #967357; }
 [data-theme="dark"] .post-content ul,
 [data-theme="dark"] .post-content ol,
 [data-theme="dark"] .post-content li { color: #d6c7a7; }
-[data-theme="dark"] .post-content h2 { color: #e0cda5; }
-[data-theme="dark"] .post-content h3 { color: #d4bf95; }
-[data-theme="dark"] .post-content h4,
+[data-theme="dark"] .post-content h2 { color: #e8c870; }
+[data-theme="dark"] .post-content h3 { color: #d4a843; }
+[data-theme="dark"] .post-content h4 { color: #c8960c; }
 [data-theme="dark"] .post-content h5,
-[data-theme="dark"] .post-content h6 { color: #c8b186; }
+[data-theme="dark"] .post-content h6 { color: #b89058; }
+[data-theme="dark"] .post-content strong,
+[data-theme="dark"] .post-content b { color: #e8c870; }
+[data-theme="dark"] .post-content em,
+[data-theme="dark"] .post-content i { color: #d4a843; }
 [data-theme="dark"] .post-title { color: var(--primary); }
 [data-theme="dark"] .post-meta { color: #a89372; }
 [data-theme="dark"] .post-meta a { color: var(--gold); }
