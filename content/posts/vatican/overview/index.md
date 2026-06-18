@@ -6,9 +6,9 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-overview-painting.jpg", alt: "梵蒂冈博物馆 + 西斯廷礼拜堂 + 圣彼得大教堂 · 总览"}
 ---
 
-> **一句话**：D3 上午一气呵成的三连击——**梵蒂冈博物馆（走廊+古典雕塑+拉斐尔房间）→ 西斯廷礼拜堂（米开朗基罗天顶+最后的审判）→ 圣彼得大教堂（圣殇+华盖+穹顶）**。这是整个罗马段艺术密度最高的半天。本目录把每段拆成单独文件，配合 2026-06-30 周二 罗马 D3 详情 的时间线一起用。
->
-> 🔗 官方：[梵蒂冈博物馆](https://www.museivaticani.va/content/museivaticani/en.html) ｜ [圣彼得大教堂](https://www.basilicasanpietro.va/en) ｜ [圣彼得官方虚拟游览](https://virtual.basilicasanpietro.va/en)
+**一句话**：D3 上午一气呵成的三连击——**梵蒂冈博物馆（走廊+古典雕塑+拉斐尔房间）→ 西斯廷礼拜堂（米开朗基罗天顶+最后的审判）→ 圣彼得大教堂（圣殇+华盖+穹顶）**。这是整个罗马段艺术密度最高的半天。本目录把每段拆成单独文件，配合 2026-06-30 周二 罗马 D3 详情 的时间线一起用。
+
+🔗 官方：[梵蒂冈博物馆](https://www.museivaticani.va/content/museivaticani/en.html) ｜ [圣彼得大教堂](https://www.basilicasanpietro.va/en) ｜ [圣彼得官方虚拟游览](https://virtual.basilicasanpietro.va/en)
 
 ### 三个地方分别是什么
 

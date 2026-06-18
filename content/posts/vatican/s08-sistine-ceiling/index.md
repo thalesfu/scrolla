@@ -8,8 +8,8 @@ cover: {image: "/images/posts/covers/vatican-s08-sistine-ceiling-painting.jpg", 
 
 ## 这座礼拜堂是什么
 
->
-> 🔗 官方：[梵蒂冈博物馆 · 西斯廷礼拜堂](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina.html) ｜ 360° 高清可缩放官方虚拟游览（搜 "Vatican Sistine Chapel virtual tour"，进门前在手机上先认场景）
+
+🔗 官方：[梵蒂冈博物馆 · 西斯廷礼拜堂](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina.html) ｜ 360° 高清可缩放官方虚拟游览（搜 "Vatican Sistine Chapel virtual tour"，进门前在手机上先认场景）
 
 ![](西斯廷礼拜堂-内景全景.webp)
 

@@ -6,9 +6,9 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-v03a-gallery-of-maps-painting.jpg", alt: "梵蒂冈博物馆 · 地图廊全图集（40 幅地图）"}
 ---
 
-> ⭐⭐⭐ 这是 [V - 03 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）](../v03-three-galleries/) 地图廊一节的**全图册**——把 120 米长廊两壁的 **40 幅地区地图壁画**逐幅拆开、配 Wikimedia Commons 公有领域大图与说明，供出发前预习、现场对照。**现场是赶路段、单向缓行**，不可能逐幅细看；这份册子的用法是**先在这里认全、记住几幅要找的**（罗马、托斯卡纳、坎帕尼亚——正好串起你们的行程），到现场抬头扫一眼天顶、低头找那几幅即可。
->
-> 🔗 官方：[Gallery of the Geographical Maps · Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-carte-geografiche.html) ｜ [Wikipedia · Gallery of Maps](https://en.wikipedia.org/wiki/Gallery_of_Maps) ｜ [Commons 全部 40 幅分类](https://commons.wikimedia.org/wiki/Category:Painted_Maps_of_the_Gallery_of_Geographical_Maps_(Vatican_Museums))
+⭐⭐⭐ 这是 [V - 03 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）](../v03-three-galleries/) 地图廊一节的**全图册**——把 120 米长廊两壁的 **40 幅地区地图壁画**逐幅拆开、配 Wikimedia Commons 公有领域大图与说明，供出发前预习、现场对照。**现场是赶路段、单向缓行**，不可能逐幅细看；这份册子的用法是**先在这里认全、记住几幅要找的**（罗马、托斯卡纳、坎帕尼亚——正好串起你们的行程），到现场抬头扫一眼天顶、低头找那几幅即可。
+
+🔗 官方：[Gallery of the Geographical Maps · Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-carte-geografiche.html) ｜ [Wikipedia · Gallery of Maps](https://en.wikipedia.org/wiki/Gallery_of_Maps) ｜ [Commons 全部 40 幅分类](https://commons.wikimedia.org/wiki/Category:Painted_Maps_of_the_Gallery_of_Geographical_Maps_(Vatican_Museums))
 
 ### 这条廊怎么读
 

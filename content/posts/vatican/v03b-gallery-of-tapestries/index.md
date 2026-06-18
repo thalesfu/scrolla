@@ -6,10 +6,10 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-v03b-gallery-of-tapestries-painting.jpg", alt: "梵蒂冈博物馆 · 挂毯廊全图集（基督生平 + 乌尔班八世）"}
 ---
 
-> ⭐⭐ 这是 [V - 03 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）](../v03-three-galleries/) 挂毯廊一节的**全图册**——把廊里两套主要挂毯系列逐幅拆开、配大图与说明。挂毯廊**刻意调暗灯光**（织物怕光），现场很难看清细节；这份册子的用法是**出发前先在亮处把每幅看清、记住故事**，到现场只需边走边认、专门停在"会跟人的复活基督"前即可。
->
-> 🔗 官方：[Gallery of the Tapestries · Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-arazzi.html)
-> 🔗 [基督生平系列（新学派）](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-arazzi/serie-vita-cristo.html) ｜ [乌尔班八世生平系列](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-arazzi/serie-vita-urbanoVIII.html)
+⭐⭐ 这是 [V - 03 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）](../v03-three-galleries/) 挂毯廊一节的**全图册**——把廊里两套主要挂毯系列逐幅拆开、配大图与说明。挂毯廊**刻意调暗灯光**（织物怕光），现场很难看清细节；这份册子的用法是**出发前先在亮处把每幅看清、记住故事**，到现场只需边走边认、专门停在"会跟人的复活基督"前即可。
+
+🔗 官方：[Gallery of the Tapestries · Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-arazzi.html)
+🔗 [基督生平系列（新学派）](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-arazzi/serie-vita-cristo.html) ｜ [乌尔班八世生平系列](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-arazzi/serie-vita-urbanoVIII.html)
 
 ### 这条廊是什么
 

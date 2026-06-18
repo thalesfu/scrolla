@@ -6,9 +6,9 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-b12-dome-climb-painting.jpg", alt: "圣彼得大教堂 · 登顶穹顶攻略"}
 ---
 
-> ⭐⭐ D3 是否登顶仍是**待定项**（见 2026-06-30 周二 罗马 D3 详情 "待补"）。本文给齐数据，方便你现场或行前决定。**核心结论：值得，但很耗时耗体力，且和你们下午 16:00 博尔盖塞硬时段冲突——要登就得压缩午餐、当机立断。**
->
-> 🔗 官方：[圣彼得大教堂官网 · 穹顶](https://www.basilicasanpietro.va/en/products/the-dome)
+⭐⭐ D3 是否登顶仍是**待定项**（见 2026-06-30 周二 罗马 D3 详情 "待补"）。本文给齐数据，方便你现场或行前决定。**核心结论：值得，但很耗时耗体力，且和你们下午 16:00 博尔盖塞硬时段冲突——要登就得压缩午餐、当机立断。**
+
+🔗 官方：[圣彼得大教堂官网 · 穹顶](https://www.basilicasanpietro.va/en/products/the-dome)
 
 ### 一句话结论
 
