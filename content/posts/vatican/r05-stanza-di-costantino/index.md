@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-r05-stanza-di-costantino-painting.jpg", alt: "拉斐尔房间 · 君士坦丁厅"}
 ---
 
-⭐⭐ 进拉斐尔房间通常按 **君士坦丁厅 → 赫利奥多罗斯厅 → 签字厅 → 火灾厅** 的顺序走。本文是**第一间**；下一间见 [R - 06 拉斐尔房间 · 赫利奥多罗斯厅](../r06-stanza-di-eliodoro/)，核心的签字厅见 [R - 07 拉斐尔房间 · 签字厅《雅典学院》《圣礼之争》](../r07-stanza-della-segnatura/)。**可拍照，禁闪光。**
+进拉斐尔房间通常按 **君士坦丁厅 → 赫利奥多罗斯厅 → 签字厅 → 火灾厅** 的顺序走。本文是**第一间**；下一间见 [R - 06 拉斐尔房间 · 赫利奥多罗斯厅](../r06-stanza-di-eliodoro/)，核心的签字厅见 [R - 07 拉斐尔房间 · 签字厅《雅典学院》《圣礼之争》](../r07-stanza-della-segnatura/)。**可拍照，禁闪光。**
 
 🔗 官方：[梵蒂冈博物馆 · 拉斐尔房间](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello.html)
 

@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-v03-three-galleries-painting.jpg", alt: "梵蒂冈博物馆 · 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）"}
 ---
 
-⭐⭐ 从古典雕塑区走向拉斐尔房间/西斯廷，要穿过**三条长廊**。它们本身是"赶路段"，人流密集、单向缓行，**目标是边走边抬头看天顶**，不要停下细抠每一件。**可拍照，禁闪光。** 上一段见 [V - 02 缪斯厅 + 圆形厅 + 希腊十字厅（古典雕塑精选）](../v02-muses-rotunda-greek-cross/)。
+从古典雕塑区走向拉斐尔房间/西斯廷，要穿过**三条长廊**。它们本身是"赶路段"，人流密集、单向缓行，**目标是边走边抬头看天顶**，不要停下细抠每一件。**可拍照，禁闪光。** 上一段见 [V - 02 缪斯厅 + 圆形厅 + 希腊十字厅（古典雕塑精选）](../v02-muses-rotunda-greek-cross/)。
 
 🔗 官方：[梵蒂冈博物馆官网](https://www.museivaticani.va/content/museivaticani/en/collezioni.html)
 

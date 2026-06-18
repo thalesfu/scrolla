@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-r07-stanza-della-segnatura-painting.jpg", alt: "拉斐尔房间 · 签字厅《雅典学院》《圣礼之争》"}
 ---
 
-⭐⭐⭐ 拉斐尔房间的**核心一间**，盛期文艺复兴绘画的顶点之一。《雅典学院》《圣礼之争》《帕纳苏斯山》四面墙 + 天顶，是拉斐尔 25 岁起一鸣惊人的成名作。**可以拍照（禁闪光），但人多、移动慢**，进门前先认清四面墙各画什么。
+拉斐尔房间的**核心一间**，盛期文艺复兴绘画的顶点之一。《雅典学院》《圣礼之争》《帕纳苏斯山》四面墙 + 天顶，是拉斐尔 25 岁起一鸣惊人的成名作。**可以拍照（禁闪光），但人多、移动慢**，进门前先认清四面墙各画什么。
 
 🔗 官方：[梵蒂冈博物馆 · 拉斐尔房间](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello.html)
 

@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-b10-architecture-square-painting.jpg", alt: "圣彼得大教堂 · 建筑史 + 外立面 + 广场柱廊"}
 ---
 
-⭐⭐⭐ 持 Hosted Entry 从西斯廷专用门直通进来（11:25 左右）。本文讲**建筑本身**——它是天主教世界第一大堂、文艺复兴与巴洛克众巨匠接力 120 年的结晶；内部名作见 [B - 11 圣彼得大教堂 · 内部必看（圣殇 + 华盖 + 宝座 + 穹顶内部）](../b11-interior/)，登顶见 [B - 12 圣彼得大教堂 · 登顶穹顶攻略（台阶 + 票价 + 排队 + 值不值）](../b12-dome-climb/)。
+持 Hosted Entry 从西斯廷专用门直通进来（11:25 左右）。本文讲**建筑本身**——它是天主教世界第一大堂、文艺复兴与巴洛克众巨匠接力 120 年的结晶；内部名作见 [B - 11 圣彼得大教堂 · 内部必看（圣殇 + 华盖 + 宝座 + 穹顶内部）](../b11-interior/)，登顶见 [B - 12 圣彼得大教堂 · 登顶穹顶攻略（台阶 + 票价 + 排队 + 值不值）](../b12-dome-climb/)。
 
 🔗 官方：[圣彼得大教堂官网](https://www.basilicasanpietro.va/en) ｜ [官方虚拟游览](https://virtual.basilicasanpietro.va/en)
 

@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-r08-stanza-incendio-borgo-painting.jpg", alt: "拉斐尔房间 · 波尔戈火灾厅"}
 ---
 
-⭐⭐ 拉斐尔房间的**第四间、也是最后一间**（离开西斯廷前的最后一段壁画）。原是教皇的餐厅，主题围绕历代叫"利奥"的教皇，为当朝教皇利奥十世（Leo X）造势。**可拍照，禁闪光。** 上一间见 [R - 07 拉斐尔房间 · 签字厅《雅典学院》《圣礼之争》](../r07-stanza-della-segnatura/)。
+拉斐尔房间的**第四间、也是最后一间**（离开西斯廷前的最后一段壁画）。原是教皇的餐厅，主题围绕历代叫"利奥"的教皇，为当朝教皇利奥十世（Leo X）造势。**可拍照，禁闪光。** 上一间见 [R - 07 拉斐尔房间 · 签字厅《雅典学院》《圣礼之争》](../r07-stanza-della-segnatura/)。
 
 🔗 官方：[梵蒂冈博物馆 · 拉斐尔房间](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello.html)
 

@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-v02-muses-rotunda-greek-cross-painting.jpg", alt: "梵蒂冈博物馆 · 缪斯厅 + 圆形厅 + 希腊十字厅（古典雕塑精选）"}
 ---
 
-⭐⭐ 八角庭院之后、地图廊之前的几间古典雕塑大厅（庇护-克莱门特博物馆核心）。**可拍照，禁闪光。** 上一段见 [V - 01 入口与松果院 + 八角庭院（拉奥孔 + 观景楼阿波罗）](../v01-pinecone-octagonal/)。
+八角庭院之后、地图廊之前的几间古典雕塑大厅（庇护-克莱门特博物馆核心）。**可拍照，禁闪光。** 上一段见 [V - 01 入口与松果院 + 八角庭院（拉奥孔 + 观景楼阿波罗）](../v01-pinecone-octagonal/)。
 
 🔗 官方：[梵蒂冈博物馆 · 庇护-克莱门特博物馆](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino.html)
 

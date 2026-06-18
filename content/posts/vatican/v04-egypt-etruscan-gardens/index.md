@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-v04-egypt-etruscan-gardens-painting.jpg", alt: "梵蒂冈博物馆 · 支线 · 埃及馆 + 伊特鲁里亚馆 + 梵蒂冈花园"}
 ---
 
-⭐ **调研备查，D3 默认不去**。梵蒂冈博物馆体量巨大，下面几处都不在"博物馆→西斯廷→圣彼得"的主动线高潮上；D3 上午只有 2.5–3 h，**优先保证拉斐尔房间 + 西斯廷 + 大教堂**。这里留作"万一时间富余/特别感兴趣"时的备选，或未来再访参考。
+**调研备查，D3 默认不去**。梵蒂冈博物馆体量巨大，下面几处都不在"博物馆→西斯廷→圣彼得"的主动线高潮上；D3 上午只有 2.5–3 h，**优先保证拉斐尔房间 + 西斯廷 + 大教堂**。这里留作"万一时间富余/特别感兴趣"时的备选，或未来再访参考。
 
 🔗 官方：[梵蒂冈博物馆 · 各馆](https://www.museivaticani.va/content/museivaticani/en/collezioni.html)
 

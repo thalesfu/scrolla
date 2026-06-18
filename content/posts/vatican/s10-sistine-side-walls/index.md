@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-s10-sistine-side-walls-painting.jpg", alt: "西斯廷礼拜堂 · 两侧墙 + 入口墙壁画带"}
 ---
 
-⭐⭐ 西斯廷最早（1481–82）的装饰：南墙、北墙、入口墙三面墙，从上到下都分**同样的四条横带**——月楣（基督的祖先）、教皇肖像带、故事壁画带（南墙《摩西生平》／北墙《基督生平》／两端的"大结局"在入口墙）、底层仿帷幔。**严禁拍照、保持安静**。重头在天顶 [S - 08 西斯廷礼拜堂 · 天顶《创世纪》九场景 + 先知女巫](../s08-sistine-ceiling/) 与祭坛墙 [S - 09 西斯廷礼拜堂 · 祭坛墙《最后的审判》](../s09-sistine-last-judgment/)，这一篇是"顺路认一认"。
+西斯廷最早（1481–82）的装饰：南墙、北墙、入口墙三面墙，从上到下都分**同样的四条横带**——月楣（基督的祖先）、教皇肖像带、故事壁画带（南墙《摩西生平》／北墙《基督生平》／两端的"大结局"在入口墙）、底层仿帷幔。**严禁拍照、保持安静**。重头在天顶 [S - 08 西斯廷礼拜堂 · 天顶《创世纪》九场景 + 先知女巫](../s08-sistine-ceiling/) 与祭坛墙 [S - 09 西斯廷礼拜堂 · 祭坛墙《最后的审判》](../s09-sistine-last-judgment/)，这一篇是"顺路认一认"。
 
 🔗 官方：[Parete sud（南墙）· Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/parete-sud.html) · [Parete nord（北墙）· Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/parete-nord.html) · [Parete di ingresso（入口墙）· Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/parete-di-ingresso.html)
 

@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-v01-pinecone-octagonal-painting.jpg", alt: "梵蒂冈博物馆 · 入口与松果院 + 八角庭院（拉奥孔 + 观景楼阿波罗）"}
 ---
 
-⭐⭐ 进梵蒂冈博物馆后最先经过的几个庭院。**八角庭院（Cortile Ottagono）藏着两件西方雕塑史的"圣物"**——《拉奥孔》与《观景楼的阿波罗》，是去拉斐尔房间/西斯廷路上不可错过的一段。**可拍照，禁闪光。**
+进梵蒂冈博物馆后最先经过的几个庭院。**八角庭院（Cortile Ottagono）藏着两件西方雕塑史的"圣物"**——《拉奥孔》与《观景楼的阿波罗》，是去拉斐尔房间/西斯廷路上不可错过的一段。**可拍照，禁闪光。**
 
 🔗 官方：[梵蒂冈博物馆 · 庇护-克莱门特博物馆](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino.html)
 
