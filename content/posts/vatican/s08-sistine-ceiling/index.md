@@ -26,9 +26,9 @@ cover: {image: "/images/posts/covers/vatican-s08-sistine-ceiling-painting.jpg", 
 > ⭐⭐⭐ **全程头号高光**。米开朗基罗（Michelangelo）1508–1512 年独力画完的 ~520 ㎡ 天顶，340 余个人物，是西方艺术的绝对地标。**内部严禁拍照、严禁出声**，讲解必须在进门前讲透——本文就是给你"进门后举着脑子对照看"用的。
 >
 > 现场约 15–20 min。进门**先别急着找《创造亚当》**，先用 30 秒搞清整个天顶的"读法"（见下"先看懂结构"），否则你会在一片金碧辉煌里迷路。
-> 
+>
 > 🔗 官方：[Ceiling · Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/volta.html)
-> 
+>
 
 ![](Volta_della_Cappella_Sistina.webp)
 
@@ -523,5 +523,5 @@ cover: {image: "/images/posts/covers/vatican-s08-sistine-ceiling-painting.jpg", 
 
 - **严禁拍照、严禁摄像、禁用手机拍**（守卫会喝止"No photo!"）；**保持安静**，广播会反复用多语言喊 "Silenzio!"。想要图，靠官方虚拟游览和本文。
 - **脖子会很酸**：仰头久了不适，可**靠墙站、或低头用手机里存的天顶图对照**（别举着拍），看完再走到中间仰望。
-- 礼拜堂**两端各有一道门**：进门来自博物馆方向，出门若持 Hosted Entry（你们是），走**祭坛右侧的专用门直通圣彼得大教堂**，省掉重新排队——这是你们票种的核心福利，**别跟大流走错门**。
+- 礼拜堂**两端各有一道门**：进门来自博物馆方向，出门若持 Hosted Entry，走**祭坛右侧的专用门直通圣彼得大教堂**，省掉重新排队——这是该票种的核心福利，**别跟大流走错门**。
 - 这里是宗教场所与选举地，**着装强制遮肩盖膝**（全梵蒂冈通用）。

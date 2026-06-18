@@ -6,7 +6,7 @@ draft: false
 cover: {image: "/images/posts/covers/vatican-v03a-gallery-of-maps-painting.jpg", alt: "梵蒂冈博物馆 · 地图廊全图集（40 幅地图）"}
 ---
 
-这是 [V - 03 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）](../v03-three-galleries/) 地图廊一节的**全图册**——把 120 米长廊两壁的 **40 幅地区地图壁画**逐幅拆开、配 Wikimedia Commons 公有领域大图与说明，供出发前预习、现场对照。**现场是赶路段、单向缓行**，不可能逐幅细看；这份册子的用法是**先在这里认全、记住几幅要找的**（罗马、托斯卡纳、坎帕尼亚——正好串起你们的行程），到现场抬头扫一眼天顶、低头找那几幅即可。
+这是 [V - 03 地图廊 + 挂毯廊 + 烛台廊（穿行段挑看）](../v03-three-galleries/) 地图廊一节的**全图册**——把 120 米长廊两壁的 **40 幅地区地图壁画**逐幅拆开、配 Wikimedia Commons 公有领域大图与说明，供出发前预习、现场对照。**现场是赶路段、单向缓行**，不可能逐幅细看；这份册子的用法是**先在这里认全、记住几幅要找的**（罗马、托斯卡纳、坎帕尼亚——正好串起经典意大利路线），到现场抬头扫一眼天顶、低头找那几幅即可。
 
 🔗 官方：[Gallery of the Geographical Maps · Musei Vaticani](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/galleria-carte-geografiche.html) ｜ [Wikipedia · Gallery of Maps](https://en.wikipedia.org/wiki/Gallery_of_Maps) ｜ [Commons 全部 40 幅分类](https://commons.wikimedia.org/wiki/Category:Painted_Maps_of_the_Gallery_of_Geographical_Maps_(Vatican_Museums))
 
@@ -55,13 +55,13 @@ cover: {image: "/images/posts/covers/vatican-v03a-gallery-of-maps-painting.jpg",
 
 意大利西北的狭长海岸，热那亚共和国的本土。这幅**大半是海**——金色放射线、满海帆船与海怪，墙楣红底金框写着 LIGVRIA。海上还藏着一组**哥伦布乘海神战车**的寓言（哥伦布是热那亚人）。本地区的首府热那亚另有专门的港城景观图（见 #29 热那亚港（Genua））。
 
-#### 04 托斯卡纳（Etruria）⭐ 你们的下一站
+#### 04 托斯卡纳（Etruria）⭐ 经典路线下一站
 
 ![](地图廊_-_04_托斯卡纳（Etruria）.jpg)
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AEtruria_-_Galleria_delle_Carte_Geografiche_-FG.jpg)*
 
-用古名"埃特鲁里亚"标注的**托斯卡纳大公国**：佛罗伦萨、锡耶纳、利沃诺、阿尔诺河谷都在图上。**这正是你们 D6 起的目的地**——在 16 世纪的地图上先飞一遍佛罗伦萨周边。角落嵌着佛罗伦萨与锡耶纳的城市小景，可凑近找。
+用古名"埃特鲁里亚"标注的**托斯卡纳大公国**：佛罗伦萨、锡耶纳、利沃诺、阿尔诺河谷都在图上。**意大利路线常以这里作为下一站**——在 16 世纪的地图上先飞一遍佛罗伦萨周边。角落嵌着佛罗伦萨与锡耶纳的城市小景，可凑近找。
 
 #### 05 圣彼得遗产地（Patrimonium Sancti Petri）
 
@@ -77,7 +77,7 @@ cover: {image: "/images/posts/covers/vatican-v03a-gallery-of-maps-painting.jpg",
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALatium_et_Sabina%2C_Galleria_delle_Carte_Geografiche%2C_-FG.jpg)*
 
-**罗马所在的一幅**——罗马campagna（罗马平原）与萨宾山区。原版角上嵌着**罗马城平面图**，认台伯河的 S 弯。你们这几天就住在这片地图里：现场值得专门找出来对一眼"我在哪"。
+**罗马所在的一幅**——罗马campagna（罗马平原）与萨宾山区。原版角上嵌着**罗马城平面图**，认台伯河的 S 弯。罗马这几天就住在这片地图里：现场值得专门找出来对一眼"我在哪"。
 
 #### 07 坎帕尼亚·那不勒斯（Campania）⭐ 行程后段
 
@@ -85,7 +85,7 @@ cover: {image: "/images/posts/covers/vatican-v03a-gallery-of-maps-painting.jpg",
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ACampania%2C_Galleria_delle_Carte_Geografiche_-FG.jpg)*
 
-**那不勒斯湾与维苏威火山**——你们行程后段（索伦托/阿马尔菲方向）的大区。图上能找到那不勒斯城、维苏威、卡普里岛。坎帕尼亚是当时那不勒斯王国最富的省，海岸线画得格外用心。
+**那不勒斯湾与维苏威火山**——意大利南段（索伦托 / 阿马尔菲方向）的大区。图上能找到那不勒斯城、维苏威、卡普里岛。坎帕尼亚是当时那不勒斯王国最富的省，海岸线画得格外用心。
 
 #### 08 萨莱诺公国（Principatus Salerni）
 
@@ -265,7 +265,7 @@ cover: {image: "/images/posts/covers/vatican-v03a-gallery-of-maps-painting.jpg",
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AUrbini_Ducatus%2C_Galleria_delle_Carte_Geografiche_-FG.jpg)*
 
-德拉·罗韦雷家族的**乌尔比诺公国**——文艺复兴最精致的宫廷之一，也是**拉斐尔的故乡**（你们刚看完的拉斐尔房间就是他画的）。山城乌尔比诺的公爵宫是建筑史名作。
+德拉·罗韦雷家族的**乌尔比诺公国**——文艺复兴最精致的宫廷之一，也是**拉斐尔的故乡**（刚看完的拉斐尔房间就是他画的）。山城乌尔比诺的公爵宫是建筑史名作。
 
 ---
 

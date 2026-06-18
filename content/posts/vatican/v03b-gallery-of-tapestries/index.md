@@ -50,7 +50,7 @@ cover: {image: "/images/posts/covers/vatican-v03b-gallery-of-tapestries-painting
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3A26-_Adorazione_dei_Magi%2C_1524-31_-_Serie_della_Scuola_Nuova_-FG.jpg)*
 
-东方三博士（Magi）随星而来，向圣婴献上黄金、乳香、没药。比牧人来拜更华丽——异邦君王的锦袍、随从、骆驼，给织工炫技的空间。三博士的"博士"一词即源自波斯祆教的"麦琪"（与你们在地图廊/雅典学院见到的琐罗亚斯德同源）。
+东方三博士（Magi）随星而来，向圣婴献上黄金、乳香、没药。比牧人来拜更华丽——异邦君王的锦袍、随从、骆驼，给织工炫技的空间。三博士的"博士"一词即源自波斯祆教的"麦琪"（与地图廊/雅典学院见到的琐罗亚斯德同源）。
 
 #### 03 无辜婴孩被屠（Strage degli Innocenti）—— 三个版本
 
@@ -100,7 +100,7 @@ cover: {image: "/images/posts/covers/vatican-v03b-gallery-of-tapestries-painting
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3A45-_Cena_in_Emmaus%2C_1524-31._Serie_della_Scuola_Nuova_-FG.jpg)*
 
-复活后，基督与两名没认出他的门徒同行到以马忤斯，在席间**擘饼的一刻门徒认出了他**。画的正是擘饼那一瞬——基督举手祝福、门徒恍然。这是"圣体"主题的经典图像，与你们刚在签字厅看的《圣礼之争》一脉相承。
+复活后，基督与两名没认出他的门徒同行到以马忤斯，在席间**擘饼的一刻门徒认出了他**。画的正是擘饼那一瞬——基督举手祝福、门徒恍然。这是"圣体"主题的经典图像，与刚在签字厅看的《圣礼之争》一脉相承。
 
 #### 06 升天（Ascensione）
 
@@ -114,7 +114,7 @@ cover: {image: "/images/posts/covers/vatican-v03b-gallery-of-tapestries-painting
 
 ### 二、乌尔班八世生平（Barberini 工坊，1663–95 罗马织）
 
-> 对壁这套晚一百年，由教廷自办的巴贝里尼工坊在罗马织成，讲教皇**乌尔班八世（Urban VIII，本名马费奥·巴贝里尼 Maffeo Barberini，1568–1644，在位 1623–1644）**的一生。他是贝尼尼最大的赞助人——你们待会儿在圣彼得大教堂看的**贝尼尼青铜华盖**就是他下令建的，到处可见的**三只蜜蜂纹章**就是巴贝里尼家徽。这套挂毯是巴贝里尼家族给自家教皇立的"织成的传记"。
+> 对壁这套晚一百年，由教廷自办的巴贝里尼工坊在罗马织成，讲教皇**乌尔班八世（Urban VIII，本名马费奥·巴贝里尼 Maffeo Barberini，1568–1644，在位 1623–1644）**的一生。他是贝尼尼最大的赞助人——圣彼得大教堂里的**贝尼尼青铜华盖**就是他下令建的，到处可见的**三只蜜蜂纹章**就是巴贝里尼家徽。这套挂毯是巴贝里尼家族给自家教皇立的"织成的传记"。
 
 #### 01 在比萨大学受学位（Maffeo Barberini si addottora）
 
@@ -130,7 +130,7 @@ cover: {image: "/images/posts/covers/vatican-v03b-gallery-of-tapestries-painting
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3A55-_Maffeo_Barberini_regola_il_deflusso_del_lago_Trasimeno%2C_1665-66_-FG.jpg)*
 
-马费奥任翁布里亚地方长官时**主持治理特拉西梅诺湖的排水工程**。把一桩水利政绩织进传记——展示他不只是教士，也是能臣。（特拉西梅诺湖你们在地图廊"佩鲁贾地区"那幅里也见过。）
+马费奥任翁布里亚地方长官时**主持治理特拉西梅诺湖的排水工程**。把一桩水利政绩织进传记——展示他不只是教士，也是能臣。（特拉西梅诺湖在地图廊"佩鲁贾地区"那幅里也出现过。）
 
 #### 03 保禄五世封他为枢机（nominato cardinale da Paolo V）
 
@@ -170,13 +170,13 @@ cover: {image: "/images/posts/covers/vatican-v03b-gallery-of-tapestries-painting
 
 乌尔班八世**加固罗马的城防**（贾尼科洛山一线的"乌尔班城墙"至今仍在）。把军事工程织进传记——一位既保境又安民的教皇。
 
-#### 07 祝圣圣彼得大教堂（consacra la basilica di San Pietro）⭐ 与你们今天的行程直接相关
+#### 07 祝圣圣彼得大教堂（consacra la basilica di San Pietro）⭐ 与圣彼得大教堂直接相关
 
 ![](挂毯廊_-_乌尔班八世_07_祝圣圣彼得大教堂（consacra_la_basilica）.jpg)
 
 *图源：[Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3A90-_Il_18_novembre_1656_Urbano_VIII_consacra_la_basilica_di_San_Pietro%2C_1671-73_-FG.jpg)*
 
-**1626 年 11 月 18 日，乌尔班八世正式祝圣（祝献）新圣彼得大教堂**——历时一百多年重建的新圣彼得终于落成启用，由他主持祝圣大典。**这正是你们今天稍后要进的那座教堂**：在挂毯里先看一眼它"剪彩"的那一刻，再走进去看实物，特别应景。（注：Commons 文件名把年份误写成 1656，实际史实是 1626 年。）
+**1626 年 11 月 18 日，乌尔班八世正式祝圣（祝献）新圣彼得大教堂**——历时一百多年重建的新圣彼得终于落成启用，由他主持祝圣大典。**这正是稍后会走进的那座教堂**：在挂毯里先看一眼它"剪彩"的那一刻，再走进去看实物，特别应景。（注：Commons 文件名把年份误写成 1656，实际史实是 1626 年。）
 
 ---
 
