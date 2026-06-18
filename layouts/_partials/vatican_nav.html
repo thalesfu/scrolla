@@ -1,0 +1,32 @@
+{{- /* 梵蒂冈博物馆 + 西斯廷礼拜堂 + 圣彼得大教堂 18 篇文章的导航。
+       仅在路径前缀为 /posts/vatican/ 的文章页渲染。
+       样式复用 .toc，文章标题按 Date 倒序，与 Posts 列表顺序保持一致。 */ -}}
+{{- if hasPrefix .RelPermalink "/posts/vatican/" }}
+{{- $current := .RelPermalink }}
+{{- $items := slice }}
+{{- range site.RegularPages.ByDate.Reverse }}
+  {{- if hasPrefix .RelPermalink "/posts/vatican/" }}
+    {{- $items = $items | append . }}
+  {{- end }}
+{{- end }}
+{{- if gt (len $items) 1 }}
+<details class="toc vatican-nav" open>
+  <summary>
+    <span class="title">梵蒂冈博物馆 + 西斯廷礼拜堂 + 圣彼得大教堂 · 全部章节</span>
+  </summary>
+  <div class="inner">
+    <ul>
+      {{- range $items }}
+      <li>
+        {{- if eq .RelPermalink $current }}
+        <strong>{{ .Title }}</strong>
+        {{- else }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</details>
+{{- end }}
+{{- end }}
