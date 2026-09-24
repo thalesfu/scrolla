@@ -1,0 +1,109 @@
+/* ── 图片灯箱（assets/js/lightbox.js，front matter `lightbox: true` 的文章才会启用）── */
+.post-content img.lb-zoomable { cursor: zoom-in; }
+
+html.lb-open { overflow: hidden; }
+
+/* 叠在 body::before 的做旧暗角（z-index 9000）之上 */
+.lb {
+  position: fixed;
+  inset: 0;
+  z-index: 9500;
+  background: rgba(10, 6, 2, 0.97);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: #e8c870;
+}
+.lb[hidden] { display: none; }
+
+.lb-stage {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+}
+.lb-stage.lb-grabbing { cursor: grabbing; }
+
+.lb-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: none;
+  transform-origin: 0 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  will-change: transform;
+}
+/* 放大超过原图后保持像素边缘锐利（游戏地图是像素画） */
+.lb-img.lb-pixel { image-rendering: pixelated; }
+
+.lb-caption {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: calc(100% - 140px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #e5d5b0;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-shadow: 0 1px 4px #000;
+  pointer-events: none;
+}
+
+.lb-bar {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 5px;
+  border: 1px solid #7a5818;
+  border-radius: 999px;
+  background: rgba(28, 18, 8, 0.9);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+}
+
+.lb button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.lb button:hover:not(:disabled) { background: rgba(212, 168, 67, 0.16); color: #f5dc92; }
+.lb button:focus-visible { outline: 1px solid #d4a843; outline-offset: 1px; }
+.lb button:disabled { opacity: 0.35; cursor: default; }
+
+.lb .lb-pct {
+  width: auto;
+  min-width: 64px;
+  padding: 0 10px;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.lb .lb-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: 1px solid #7a5818;
+  background: rgba(28, 18, 8, 0.9);
+}
+
+@media (max-width: 480px) {
+  .lb-caption { top: 26px; left: 20px; max-width: calc(100% - 90px); transform: none; font-size: 0.9rem; }
+  .lb-bar { bottom: 16px; }
+}

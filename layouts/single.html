@@ -49,6 +49,13 @@
   {{- partial "borghese_nav.html" . }}
   {{- partial "vatican_nav.html" . }}
 
+  {{- /* footer 是 partialCached 的，按页开关的脚本只能放在这里 */ -}}
+  {{- if .Param "lightbox" }}
+  {{- with resources.Get "js/lightbox.js" | minify | fingerprint }}
+  <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{- end }}
+  {{- end }}
+
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
