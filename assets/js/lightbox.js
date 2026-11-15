@@ -87,7 +87,8 @@
     caption.textContent = captionFor(img);
     view.onload = null;
     view.style.visibility = 'hidden';
-    view.src = img.currentSrc || img.src;
+    // 图片组里的是缩略图，原图地址在 data-full
+    view.src = img.dataset.full || img.currentSrc || img.src;
     box.hidden = false;
     document.documentElement.classList.add('lb-open');
     const start = () => {

@@ -1,0 +1,37 @@
+/* ── 图片组（layouts/_shortcodes/gallery.html）──
+   一行几张，同一行等高、不裁切。短代码在每个 figure 上写宽高比 --r，
+   按它分配宽度：基准行高 190px（手机上 90px），最高 340px。 */
+.post-content .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* 最后一行放不满时居中 */
+  gap: 8px;
+  margin: 1.2rem 0 1.6rem;
+}
+.post-content .gallery figure {
+  --h: 190px;
+  flex-grow: calc(var(--r) * 100);
+  flex-basis: calc(var(--r) * var(--h));
+  max-width: calc(var(--r) * 340px);
+  margin: 0;
+  min-width: 0;
+}
+.post-content .gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 3px;
+}
+.post-content .gallery figcaption {
+  margin-top: 4px;
+  font-size: 0.8em;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--secondary);
+}
+@media (max-width: 480px) {
+  .post-content .gallery { gap: 4px; }
+  .post-content .gallery figure { --h: 90px; }
+  .post-content .gallery figcaption { font-size: 0.7em; }
+}

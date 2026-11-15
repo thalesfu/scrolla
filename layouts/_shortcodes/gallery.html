@@ -1,0 +1,35 @@
+{{- /*
+图片组：几张照片排成一行，点开用灯箱看原图（文章要设 lightbox: true）。
+用法，每行一张：页面同目录下的文件名（不能有空格）+ 空格 + 图注：
+
+{{< gallery >}}
+罗马-万神殿.webp 万神殿
+罗马-万神殿的天窗.webp 万神殿的天窗
+{{< /gallery >}}
+
+格子里放 Hugo 生成的缩略图，原图地址放在 data-full 里给灯箱用。
+每张写上宽高比 --r，CSS 按它分配宽度，同一行的照片等高、不裁切。
+*/ -}}
+{{- $page := .Page -}}
+<div class="gallery">
+{{- range split (trim .Inner "\r\n ") "\n" }}
+  {{- $line := trim . " \r\t" }}
+  {{- if $line }}
+    {{- $file := index (split $line " ") 0 }}
+    {{- $cap := trim (strings.TrimPrefix $file $line) " " }}
+    {{- with $page.Resources.Get $file }}
+      {{- $thumb := .Resize "800x webp q72" }}
+      {{- $ratio := div (float .Width) .Height }}
+      {{- $style := printf "--r:%.3f" $ratio }}
+  <figure style="{{ $style | safeCSS }}">
+    <img src="{{ $thumb.RelPermalink }}" data-full="{{ .RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $cap }}" loading="lazy">
+    {{- with $cap }}
+    <figcaption>{{ . }}</figcaption>
+    {{- end }}
+  </figure>
+    {{- else }}
+      {{- errorf "gallery: %q not found next to %s" $file $page.File.Path }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+</div>
